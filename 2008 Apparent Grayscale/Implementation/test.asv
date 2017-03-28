@@ -1,0 +1,73 @@
+function test()
+
+testImage = imread('test.jpg');  % Import color data as uint8 in the range [0,255]
+testImage = double(testImage)/255;        % Cast to double in the range [0,1]
+
+arrSize = size(testImage);
+if(rem(arrSize(1), 2) == 1)
+    arrSize = arrSize(:,:
+end
+if(rem(arrSize(2)
+%    for i = 0 : 
+%end
+
+
+XYZ = colorspace('rgb->xyz', testImage);
+LUV = colorspace('rgb->luv', testImage);
+
+VAC = ConvertLuvToLvac(LUV);
+
+TheNewY = MappingLnToGreyscale(VAC);
+
+TheNewYReduced =  GPReduce(TheNewY);
+%TheNewYExpanded1 = GPExpand(TheNewYReduced1);
+
+%for nI = 1 : 10
+%    TheNewYReduced2 =  GPReduce(TheNewYExpanded2);
+%    TheNewYExpanded2 = GPExpand(TheNewYReduced2);
+%end
+
+% Let me expand literally the image.
+%dim = size(TheNewYReduced);
+%newdim = dim*2;
+%TheBandpassImage = zeros(newdim,class(TheNewY)); % Initialize the array in the beginning ..
+%% Pad the boundaries.
+%TheNewYReduced = [ TheNewYReduced(1,:) ;  TheNewYReduced ;  TheNewYReduced(dim(1),:) ];  % Pad the top and bottom rows.
+%TheNewYReduced = [ TheNewYReduced(:,1)    TheNewYReduced    TheNewYReduced(:,dim(2)) ];  % Pad the left and right columns.
+%Wt2 = Wt'*Wt;
+%tmpGreyValue = 0;
+%for i = 0 : newdim(1) - 1
+%   	for j = 0 : newdim(2) - 1
+%        if(rem(j,2) == 0)
+%            tmpGreyValue = TheNewYReduced(floor(i/2) + 1,j/2 + 1); % modify i, j statement here...
+%        end
+%        TheBandpassImage(i+1, j+1) = tmpGreyValue;
+		%pixeli = (i - m)/2 + 2;  idxi = find(floor(pixeli)==pixeli);
+		%pixelj = (j - m)/2 + 2;  idxj = find(floor(pixelj)==pixelj);
+		%A = I(pixeli(idxi),pixelj(idxj)) .* Wt2(m(idxi)+3,m(idxj)+3);
+		%IResult(i + 1, j + 1)= 4 * sum(A(:));
+%   	end
+%end
+%%
+
+% Hi - bandpass image.
+Expanded = GPExpand(TheNewYReduced);
+bImage = TheNewY - Expanded;
+
+
+figure;
+imshow(TheNewY);
+axis image
+
+% after expanding it
+figure;
+imshow(Expanded);
+axis image
+
+figure;
+imshow(abs(bImage) .* 100);
+axis image
+
+
+
+

@@ -1,0 +1,89 @@
+%%%% ijcai09.tex
+
+\typeout{IJCAI-09 Instructions for Authors}
+
+% These are the instructions for authors for IJCAI-09.
+% They are the same as the ones for IJCAI-07 with superficical wording
+%   changes only.
+
+\documentclass{article}
+% The file ijcai09.sty is the style file for IJCAI-09 (same as ijcai07.sty).
+\usepackage{ijcai09}
+
+% Use the postscript times font!
+\usepackage{times}
+
+% the following package is optional:
+%\usepackage{latexsym} 
+
+% Following comment is from ijcai97-submit.tex:
+% The preparation of these files was supported by Schlumberger Palo Alto
+% Research, AT\&T Bell Laboratories, and Morgan Kaufmann Publishers.
+% Shirley Jowell, of Morgan Kaufmann Publishers, and Peter F.
+% Patel-Schneider, of AT\&T Bell Laboratories collaborated on their
+% preparation.
+
+% These instructions can be modified and used in other conferences as long
+% as credit to the authors and supporting agencies is retained, this notice
+% is not changed, and further modification or reuse is not restricted.
+% Neither Shirley Jowell nor Peter F. Patel-Schneider can be listed as
+% contacts for providing assistance without their prior permission.
+
+% To use for other conferences, change references to files and the
+% conference appropriate and use other authors, contacts, publishers, and
+% organizations.
+% Also change the deadline and address for returning papers and the length and
+% page charge instructions.
+% Put where the files are available in the appropriate places.
+
+\title{Robust Color-to-Gray through a wide range of imaging situations}
+\author{Taekyu Shin\\
+Department of Computer Science\\
+UMBC \\
+shin7@umbc.edu}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+  {\it Robust Color-to-Gray through a wide range of imaging situations  } will present color-to-gray conversion algorithm that is robust through various imaging situations. This technique is intended to consider the appearance of related and unrelated colors in various backgrounds, surrounds, illumination colors, and luminance levels ranging from low scotopic to bleaching levels. In order to do it, we incorporate Hunt Color Model [FairChild]. We also let users choose Nayatani Color Model because Hunt Color Model is, although most complete, expensive compared to Nayatani Model. Also, since Nayatani also resolves many effects, it may usually lead to visually accurate color ordering in general, we believe that some users prefer to discriminate colors with high saturation. Hence, we apply a global manipulation by creating principal component from chrominance difference, and adjust local values with it.
+
+\end{abstract}
+
+\section{Motivation}
+
+{\it Robust Color-to-Gray through a wide range of imaging situations}
+Color-to-gray conversion is useful in many image processing applications and black-and-white media today. Unfortunately, converting the intensity component of colors to greyscale values does not result in ideal color conversion. The color-conversion method should achieve a few important aspects to ensure the appropriate containment of color information. First of all, color discriminability is very crucial because the mapping of different color values to the same greyscale would result in loss of the image features. Previous research has shown that such feature discriminality is very achievable for various images, using global and local mapping. {\it Local mapping methods can achieve color or feature discriminality since it is easier to aim at differentiating grey values from different colors, yet inhomogeneously convert color values to grey ones globally. On the other hands, global mapping can easily accomplish appropriate color-ordering and homogeneous color conversion, but it may be difficult to preserve feature characteristics of images.}[Y.J. Kim et al.] Previously, many papers have presented using either or both the mappings, accomplishing such aspects in most cases. However, it is obviously challenging to work for all cases because some aspects may co-offset each other. Specifically, overemphasizing color differences for feature discriminability globally may bring about inaccurate color-ordering. Local statistical tweaking to avoid inaccurate color-ordering may result in failure of mapping consistency or visually unnatural mapping.\\
+The goal of this paper is to create perceptually accurate and robust color-to-gray conversion enhanced with feature discriminality, removing distortion of greyvalues from the constant colors and surviving many different imaging situations. This method may depict dynamic range colors in grayscale images and display psychologically decent results to its viewers. We explore global mapping methods in order to make certain of color mappings of grey values without local mapping. The reason is that, although visually pleasing, {\it Smith et. al} does not do visually homogeneous mappings among neighboring pixels due to the dynamic local mapping not considering mapping consistencies. Instead, we incorporate the Hunt Model[FairChild] to globally map color values to greyscale. Theoretically, this technique predicts appearance of stimuli in a variety of backgrounds at luminance levels. It also predicts a wide range of color appearance phenomena - the Bezold-Brucke hue shift, Abney effect, Helmholtz0Kohlrausch effect[Smith et. al], Hunt effect, simultaneous contrast, and etc. In addition, while previous techniques that use CIELab color space to apply chrominance difference may not be very accurate since CIELab incorporates the wrong Von Kries Model.[FairChild]\\
+ This novel method may be able to achieve both qualities that are hard to co-exist: feature-preservance, color discriminability and mapping consistency because it achieves color conversion without adhoc local mapping and use a color-distribution-based color adjustment. Also, this enhanced global mapping with component analysis,  incorporating chrominance differences between neighboring pixels, attempt to preserve color-ordering, which a lot of previous research fails in some images.\\
+Color-ordering may not be considered as important as color discriminability; however, because inaccurate color-ordering may give the viewers wrong information of the colors of the original images, color-ordering must be considered one of the key aspects to achieve. Our method will present a method that achieves color-ordering at the cost of losing little feature discriminability.\\
+This technique focuses on :\\
+$\bullet$ Luminance Ordering and Consistency : When a sequence of pixels of increasing luminance in the color image share the same hue and saturation, they will have increasing gray levels in the grayscale image.\\
+$\bullet$ Greyscale Preservation : When a pixel in the color image is gray, it will have the same gray level in the grayscale image.\\
+$\bullet$ Saturation Ordering(Using User Variable) : When a sequence of pixels having the same luminance and hue in the color image has a monotonic sequence of saturation values, its sequence of gray levels in the grayscale. Sometimes users want higher saturation to be mapped to lower greyscale. I resolve it by a user-defined variable.\\
+$\bullet$ Hue Ordering: The same luminance and saturation in the color image has a monotonic sequence of hue angles.\\
+$\bullet$ Contrast Magnitude : The magnitude of the grayscale contrasts should visibly reflect the magnitude of the color contrasts.\\
+$\bullet$ Dynamic Range : The dynamic range of the gray levels in the grayscale image should visibly accord with the dynamic range of luminance values in the color image.\\
+$\bullet$ Resolving Effects : Many negative phenomena such as the Hunt Effect should be resolved through the natural global mapping.\\
+
+
+\section{Plan and Schedule}
+Oct 20 - Oct 25 : Revision of Proposal\\
+Oct 25 - Nov 10 : Implementation of Global Mapping and Component Analysis and Adjustment\\
+Nov 10 - Nov 23 \footnote{Concurrent Debugging and Simulation} : Debugging\\
+Nov 20 - Nov 28 : Get Simulation Results and Paper Representation\\
+
+
+\section{APIs / Libs / Resources}
+Matlab
+
+%%\section*{Acknowledgments}
+
+
+%% The file named.bst is a bibliography style file for BibTeX 0.99c
+%%\bibliographystyle{named}
+%%\bibliography{ijcai09}
+
+\end{document}
+

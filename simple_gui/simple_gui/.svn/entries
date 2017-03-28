@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="233"
+   name=""
+   committed-date="2005-08-19T22:41:04.890864Z"
+   url="svn+ssh://ago820@home1.cs.northwestern.edu/home/sco590/svn/color2gray/trunk/simple_gui"
+   last-author="ago820"
+   kind="dir"
+   revision="233"/>
+<entry
+   committed-rev="234"
+   name="sunrise.ppm"
+   text-time="2005-08-23T21:33:42.000000Z"
+   committed-date="2005-08-23T21:37:07.426461Z"
+   checksum="0b9ecd4f36203024ed8752660f90f8d2"
+   last-author="ago820"
+   kind="file"
+   revision="234"/>
+<entry
+   committed-rev="234"
+   name="color2gray"
+   text-time="2005-08-23T21:34:40.000000Z"
+   committed-date="2005-08-23T21:37:07.426461Z"
+   checksum="0b1c863aa49b97f8f926d4c518bdd2bf"
+   last-author="ago820"
+   kind="file"
+   prop-time="2005-08-23T21:36:48.000000Z"
+   revision="234"/>
+<entry
+   committed-rev="234"
+   name="scrollW.fl"
+   text-time="2005-08-23T21:34:17.000000Z"
+   committed-date="2005-08-23T21:37:07.426461Z"
+   checksum="4ed1502d811ae8048496dca7cc45c0f5"
+   last-author="ago820"
+   kind="file"
+   revision="234"/>
+<entry
+   committed-rev="234"
+   name="COPYING.TXT"
+   text-time="2005-08-23T21:34:17.000000Z"
+   committed-date="2005-08-23T21:37:07.426461Z"
+   checksum="246531695957035707f1671a36b94926"
+   last-author="ago820"
+   kind="file"
+   revision="234"/>
+<entry
+   committed-rev="234"
+   name="scrollW.cxx"
+   text-time="2005-08-23T21:34:17.000000Z"
+   committed-date="2005-08-23T21:37:07.426461Z"
+   checksum="10d17fa84e4c41bb39d67e71037b2301"
+   last-author="ago820"
+   kind="file"
+   revision="234"/>
+<entry
+   committed-rev="234"
+   name="file_chooser.h"
+   text-time="2005-08-23T21:34:17.000000Z"
+   committed-date="2005-08-23T21:37:07.426461Z"
+   checksum="7fad4ecf53cb83382e81fecb31ab9bbb"
+   last-author="ago820"
+   kind="file"
+   revision="234"/>
+<entry
+   committed-rev="234"
+   name="cb45sm.ppm"
+   text-time="2005-08-23T21:33:42.000000Z"
+   committed-date="2005-08-23T21:37:07.426461Z"
+   checksum="8947cf1449c4b0793b1432ebe5cd8283"
+   last-author="ago820"
+   kind="file"
+   prop-time="2005-08-23T21:36:48.000000Z"
+   revision="234"/>
+<entry
+   committed-rev="234"
+   name="cb45.ppm"
+   text-time="2005-08-23T21:33:42.000000Z"
+   committed-date="2005-08-23T21:37:07.426461Z"
+   checksum="2acac591eadfc922cdbefb28a1dab29b"
+   last-author="ago820"
+   kind="file"
+   prop-time="2005-08-23T21:36:48.000000Z"
+   revision="234"/>
+<entry
+   committed-rev="234"
+   name="ramp.ppm"
+   text-time="2005-08-23T21:33:42.000000Z"
+   committed-date="2005-08-23T21:37:07.426461Z"
+   checksum="593a6907dd0d2c357fe789c70a32be71"
+   last-author="ago820"
+   kind="file"
+   prop-time="2005-08-23T21:36:48.000000Z"
+   revision="234"/>
+<entry
+   committed-rev="234"
+   name="image_io.cpp"
+   text-time="2005-08-23T21:34:17.000000Z"
+   committed-date="2005-08-23T21:37:07.426461Z"
+   checksum="3bb32315f9d7e8628a4204c330b77f5e"
+   last-author="ago820"
+   kind="file"
+   revision="234"/>
+<entry
+   committed-rev="234"
+   name="images.h"
+   text-time="2005-08-23T21:34:17.000000Z"
+   committed-date="2005-08-23T21:37:07.426461Z"
+   checksum="af688843b44cb1c71b35f8cdc20e55a8"
+   last-author="ago820"
+   kind="file"
+   revision="234"/>
+<entry
+   committed-rev="234"
+   name="gui2.h"
+   text-time="2005-08-23T21:34:17.000000Z"
+   committed-date="2005-08-23T21:37:07.426461Z"
+   checksum="0e6467f9473b5e8224121064761256f4"
+   last-author="ago820"
+   kind="file"
+   revision="234"/>
+<entry
+   committed-rev="234"
+   name="amy_colors.h"
+   text-time="2005-08-23T21:34:17.000000Z"
+   committed-date="2005-08-23T21:37:07.426461Z"
+   checksum="3a291fcd1697febbfb53662e4e9b1e13"
+   last-author="ago820"
+   kind="file"
+   revision="234"/>
+<entry
+   committed-rev="234"
+   name="thetacircle2.h"
+   text-time="2005-08-23T21:34:17.000000Z"
+   committed-date="2005-08-23T21:37:07.426461Z"
+   checksum="fff87d7795307cbdada1d2f7606c9732"
+   last-author="ago820"
+   kind="file"
+   revision="234"/>
+<entry
+   committed-rev="234"
+   name="car.ppm"
+   text-time="2005-08-23T21:33:42.000000Z"
+   committed-date="2005-08-23T21:37:07.426461Z"
+   checksum="e5e63c683b854b06e79b365e1470b0b4"
+   last-author="ago820"
+   kind="file"
+   revision="234"/>
+<entry
+   committed-rev="234"
+   name="file_chooser.cxx"
+   text-time="2005-08-23T21:34:17.000000Z"
+   committed-date="2005-08-23T21:37:07.426461Z"
+   checksum="672f4c9fff7f2b6fa03a4d928438d04b"
+   last-author="ago820"
+   kind="file"
+   revision="234"/>
+<entry
+   committed-rev="234"
+   name="color2gray.cpp"
+   text-time="2005-08-23T21:34:17.000000Z"
+   committed-date="2005-08-23T21:37:07.426461Z"
+   checksum="de6d441fccc7790eb83293c3ce1ccad8"
+   last-author="ago820"
+   kind="file"
+   revision="234"/>
+<entry
+   committed-rev="234"
+   name="main.cpp"
+   text-time="2005-08-23T21:34:17.000000Z"
+   committed-date="2005-08-23T21:37:07.426461Z"
+   checksum="8bde5c56b24db4fb905b2f99dc406c3a"
+   last-author="ago820"
+   kind="file"
+   revision="234"/>
+<entry
+   committed-rev="234"
+   name="gui2.fl"
+   text-time="2005-08-23T21:34:17.000000Z"
+   committed-date="2005-08-23T21:37:07.426461Z"
+   checksum="3e2eeccbe1bd035753ddce27eddf6292"
+   last-author="ago820"
+   kind="file"
+   revision="234"/>
+<entry
+   committed-rev="234"
+   name="gui2.cxx"
+   text-time="2005-08-23T21:34:17.000000Z"
+   committed-date="2005-08-23T21:37:07.426461Z"
+   checksum="7e0192a561d035db533e5d2c8e4f0633"
+   last-author="ago820"
+   kind="file"
+   revision="234"/>
+<entry
+   committed-rev="234"
+   name="Sunrise312.ppm"
+   text-time="2005-08-23T21:33:42.000000Z"
+   committed-date="2005-08-23T21:37:07.426461Z"
+   checksum="dc9539e9fb1fabfbaf49616ec2ad3e69"
+   last-author="ago820"
+   kind="file"
+   prop-time="2005-08-23T21:36:48.000000Z"
+   revision="234"/>
+<entry
+   committed-rev="234"
+   name="color2gray.h"
+   text-time="2005-08-23T21:34:17.000000Z"
+   committed-date="2005-08-23T21:37:07.426461Z"
+   checksum="9dbcc01275d98dde833d59ad321bb24f"
+   last-author="ago820"
+   kind="file"
+   revision="234"/>
+<entry
+   committed-rev="234"
+   name="thetacircle2.fl"
+   text-time="2005-08-23T21:34:17.000000Z"
+   committed-date="2005-08-23T21:37:07.426461Z"
+   checksum="fe47c4cb82c6f6cf053b414990638099"
+   last-author="ago820"
+   kind="file"
+   revision="234"/>
+<entry
+   committed-rev="234"
+   name="guimain.cpp"
+   text-time="2005-08-23T21:34:17.000000Z"
+   committed-date="2005-08-23T21:37:07.426461Z"
+   checksum="2ed3063ae6bfd477cd30397bd52c1fdd"
+   last-author="ago820"
+   kind="file"
+   revision="234"/>
+<entry
+   committed-rev="234"
+   name="test.ppm"
+   text-time="2005-08-23T21:33:43.000000Z"
+   committed-date="2005-08-23T21:37:07.426461Z"
+   checksum="a50ce4aa92c313c2501cd6c9fa69adc9"
+   last-author="ago820"
+   kind="file"
+   prop-time="2005-08-23T21:36:48.000000Z"
+   revision="234"/>
+<entry
+   committed-rev="234"
+   name="thetacircle2.cxx"
+   text-time="2005-08-23T21:34:17.000000Z"
+   committed-date="2005-08-23T21:37:07.426461Z"
+   checksum="9f1b9a9ce90e99ad9ecfda1a4f714b5f"
+   last-author="ago820"
+   kind="file"
+   revision="234"/>
+<entry
+   committed-rev="234"
+   name="README.txt"
+   text-time="2005-08-23T21:34:17.000000Z"
+   committed-date="2005-08-23T21:37:07.426461Z"
+   checksum="e5f83219a6ee8acd6646d384f0d16d98"
+   last-author="ago820"
+   kind="file"
+   revision="234"/>
+<entry
+   committed-rev="234"
+   name="scrollW.h"
+   text-time="2005-08-23T21:34:17.000000Z"
+   committed-date="2005-08-23T21:37:07.426461Z"
+   checksum="1d93ceb826b94289b69bb5ecdd3dc05a"
+   last-author="ago820"
+   kind="file"
+   revision="234"/>
+<entry
+   committed-rev="234"
+   name="Makefile"
+   text-time="2005-08-23T21:34:17.000000Z"
+   committed-date="2005-08-23T21:37:07.426461Z"
+   checksum="a2bb208bc9e0d9f919868cc86d5f0b9b"
+   last-author="ago820"
+   kind="file"
+   revision="234"/>
+<entry
+   committed-rev="234"
+   name="Sunrise128.ppm"
+   text-time="2005-08-23T21:33:42.000000Z"
+   committed-date="2005-08-23T21:37:07.426461Z"
+   checksum="a8b84846566b21210bf706dd4105fbad"
+   last-author="ago820"
+   kind="file"
+   revision="234"/>
+</wc-entries>

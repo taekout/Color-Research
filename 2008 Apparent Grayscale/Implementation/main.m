@@ -1,0 +1,305 @@
+function main()
+% Assume that the number of the dimensions of an image is an even number
+% there is the need to fix the conversion from XYZ to LAB
+global nMaximumDepth ;
+
+
+%FileName = input('Hello! Please enter the file name you like to convert! : ', 's');
+FileName = '1.bmp';
+% Depth = input('What depth(How many levels of L pyramid) would you like ?: ');
+% K = zeros(Depth);
+% for  i = 1 : Depth
+%     disp(sprintf('%s %d %s', 'Please enter K array value - index #', i, ' : '));
+%     K(i) = input('Value : ');
+% end
+% P = input('Please enter P value : ');
+% disp('Now processing ...');
+% 
+% nMaximumDepth = Depth;
+originalImage = imread(FileName);  % Import color data as uint8 in the range [0,255]
+originalImage = double(originalImage)/255.0;        % Cast to double in the range [0,1]
+
+referenceImageUint = imread('1_G.bmp');
+referenceImageDouble = double(referenceImageUint)/255.0;        % Cast to double in the range [0,1]
+referenceImageGrey = referenceImageDouble(:,:,1);
+% In case the dimensions of an image is an odd number
+%arrSize = size(testImage);
+%if(rem(arrSize(1), 2) == 1)
+%    arrSize = arrSize
+%end
+%if(rem(arrSize(2)
+%    for i = 0 : 
+%end
+%{
+ apply gamma function to convert to sRGB
+R = originalImage(:,:,1);
+G = originalImage(:,:,2);
+B = originalImage(:,:,3);
+R(R <= 0.03928) = R(R <=0.03928) ./ 12.92;
+R(R > 0.03928) = ((R(R > 0.03928) + 0.055) ./ 1.055) .^ 2.4;
+G(G <= 0.03928) = G(G <= 0.03928) ./ 12.92;
+G(G > 0.03928) = ((G(G > 0.03928) + 0.055) ./ 1.055 ) .^ 2.4;
+B(B <= 0.03928) = B(B <= 0.03928) ./ 12.92;
+B(B > 0.03928) = ((B(B > 0.03928) + 0.055) ./ 1.055) .^ 2.4;
+originalImage(:,:,1) = R;
+originalImage(:,:,2) = G;
+originalImage(:,:,3) = B;
+%}
+
+%c= makecform('srgb2lab');
+%LAB = applycform(originalImage, c);
+
+c = makecform('srgb2xyz');
+XYZ = applycform(originalImage, c);
+
+
+LUV = xyz2luv(XYZ);
+
+%%%%%%%%%%%%%%%%
+% I got it!! LUV matrix has a lot of  NaNs. it's because of when X and
+% (X + 15Y + 3Z) are 0 or Y and (X + 15Y + 3Z) are 0.
+% As a result, the computation becomes 0 / 0 = NaN.
+% Eventually, it makes u, v arrays have lots of NaNs.
+% tweak the values very bit later.
+% also ask ppl why it would happen. i mean 'ask if 0 value is allowed.
+% and what i should do in the situation.
+%%%%%%%%%%%%%%%%
+VAC = ConvertLuvToLvac(LUV);
+
+% I am here!!!!!!!!!!!!!!!!!!!!!!!!!
+% according to the source, after blurring, convert lab(G) -> RGB
+
+%GreyImage = MappingLnToGreyscale(VAC); % Not necessary - this function is
+%definitely wrong. I don't know why... but Not mapping it to Lab seems
+%perfectly the same as the image of the paper. and in GIMP C source, it
+%also just uses it as L of Lab
+GreyImage = VAC;
+% for the computation, calculate Lab values in advance.
+% 
+% % Invoke the second version of a remade recursive f.
+% Grey_Final = GreyImage + Recursive_f(originalImage, GreyImage, Depth, K, P);
+% 
+GreyImage = GreyImage ./ 100;
+% Grey_Final2 =Grey_Final;
+% Grey_Final = Grey_Final ./ 100;
+% Grey_Final(Grey_Final > 1) = 1;
+% Grey_Final(Grey_Final < 0) = 0;
+% if max(Grey_Final2(Grey_Final2 < 0)) < 0
+%     Grey_Final2 = Grey_Final2 - min(min(Grey_Final2));
+% end
+% 
+% Grey_Final2 = Grey_Final2 ./ max(max(Grey_Final2));
+
+% figure;
+% imshow(originalImage);
+% axis image
+% 
+ close all;
+ figure;
+ imshow(GreyImage);
+ axis image
+ 
+ figure;
+ imshow(referenceImageGrey);
+ axis image
+ 
+ figure;
+ imshow(abs(referenceImageGrey-GreyImage)*10);
+ axis image
+
+% 
+% figure;
+% imshow( Grey_Final);
+% axis image;
+% figure;
+% imshow( Grey_Final2);
+% axis image;
+% 
+% 
+% tmp_filename = strcat(FileName, '_Grey_', num2str(P), '_');
+% for i = 1 : Depth
+%     tmp_filename = strcat(tmp_filename, num2str(K(i)));
+% end
+% tmp_filename = strcat(tmp_filename, '_MAIN.bmp');
+% imwrite(GreyImage, tmp_filename, 'bmp');
+% tmp_filename = strcat(FileName, '_Int_', num2str(P), '_');
+% for i = 1 : Depth
+%     tmp_filename = strcat(tmp_filename, num2str(K(i)));
+% end
+% tmp_filename = strcat(tmp_filename, '_MAIN.bmp');
+% imwrite(Grey_Final, tmp_filename, 'bmp');
+
+
+
+
+
+
+% The rest of the job is here.
+% Now we are supposed to get a new value matrix.. actually the final value G'
+% Try to test the values...
+
+function Grey_adjusted = Recursive_f(Image, GreyImage, N, K, P)
+% every recursive invocation, Image and GreyImage become half the size of
+% them.
+N = N - 1;
+if N == -1
+    Grey_adjusted = zeros(size(GreyImage), class(GreyImage));
+    return
+end
+
+% Compute Hi(Laplacian bandpass), Kn(a constant per each depth), delta
+tmp = size(GreyImage);
+tmp = [tmp(1), tmp(2)];
+reduced_G = GPReduce(GreyImage); expanded_G = GPExpand(reduced_G, tmp);
+Hn_G = GreyImage - expanded_G;
+% compute delta
+tmp = size(Image); tmp = [tmp(1), tmp(2)];
+reduced_Image = GPReduce(Image); expanded_Image = GPExpand(reduced_Image, tmp); clear tmp;
+Hn_Image = Image - expanded_Image;
+
+%%%% We gotta check the bandpass of G and I... their absolute values are
+%%%% too different, which caused this code not work.
+
+% check abs later. abs(Hn_Image);
+c = makecform('srgb2lab');
+lab_Laplacian = applycform(abs(Hn_Image), c);
+%lab_Laplacian = colorspace('rgb->lab', abs(Hn_Image));
+
+% Just in case, some modification is applied to Lab values.
+% It seems like the ranges of Lab here are 0 < [L,a,b] < 1 even though they
+% are practically 0 ~ 100, -xx ~ +xx , -xx ~ +xx.
+% Let us set it to 0 ~ Lab ~ 1.
+%lab_Laplacian = lab_Laplacian ;   %./ 100;
+numerator = (lab_Laplacian(:,:,1) .^ 2 + lab_Laplacian(:,:,2) .^ 2 + lab_Laplacian(:,:,3) .^ 2) .^ 0.5;
+denominator = abs(Hn_G);
+% (denominator X= 0) : the denominator can't be zero because is is a
+% denominator. We concluded that we will put regularization values such as
+% almost zero and a similar value to the numerator.
+denominator(denominator == 0) = 0.00001;
+% there has got to be something wrong with the numerator
+delta = (numerator ./ denominator) .^ P;
+lambda = delta;
+% ! Program ! = sometimes delta(i) value is extremely high. it's because
+% sometimes a denominator and a numerator is almost the same. but not
+% exactly the same... think about how to take care of this.
+
+global nMaximumDepth;
+
+tmp =  (Hn_G .* K(nMaximumDepth - N) .* lambda) ;
+
+Grey_adjusted = tmp + GPExpand(Recursive_f(reduced_Image, reduced_G, N, K, P), size(GreyImage));
+
+
+
+function Image = luv2xyz(Image)
+% Convert to CIE XYZ from 'SrcSpace'
+WhitePoint = [0.950456,1,1.088754];  
+
+
+% Convert CIE L*uv to XYZ
+WhitePointU = 0.20917; %(4*WhitePoint(1))./(WhitePoint(1) + 15*WhitePoint(2) + 3*WhitePoint(3));
+WhitePointV = 0.48810; %(9*WhitePoint(2))./(WhitePoint(1) + 15*WhitePoint(2) + 3*WhitePoint(3));
+
+L = Image(:,:,1);
+Y(L>8) = ((L(L>8) + 16)/116) .^ 3;
+Y(L<=8) = L(L<=8) * ((3/29) .^ 3);
+X = Y * 9 * WhitePointU / (4 * WhitePointV);
+Y = Y * ( ( 12 - 3 * WhitePointU - 20 * WhitePointV) / (4 * WhitePointV) );
+
+
+Image(:,:,1) = -(9*Y.*U)./((U-4).*V - U.*V);                  % X
+Image(:,:,2) = Y;                                             % Y
+Image(:,:,3) = (9*Y - (15*V.*Y) - (V.*Image(:,:,1)))./(3*V);  % Z
+
+
+function Image = xyz2luv(Image)
+% Convert to CIE L*u*v* (CIELUV)
+WhitePoint = [0.950456,1,1.088754];
+WhitePointU = 0.20917; %(4*WhitePoint(1))./(WhitePoint(1) + 15*WhitePoint(2) + 3*WhitePoint(3));
+WhitePointV = 0.48810; %(9*WhitePoint(2))./(WhitePoint(1) + 15*WhitePoint(2) + 3*WhitePoint(3));
+
+X = Image(:,:,1);
+Y = Image(:,:,2);
+Z = Image(:,:,3);
+
+tmp = X + (15 * Y) + (3 * Z);
+
+% compute U, V
+% == >if (tmp == 0 && X == 0) || (tmp == 0 && Y == 0) 
+%    error('wowowowowowowoowoowwowoowowowofidasojflksd;flsajdfl;sadfj;ajsf');
+%end    
+U = (4 * X) ./ tmp;
+V = (9 * Y) ./ tmp;
+
+% compute L
+L = zeros(size(Y));
+bState = Y > (6/29)^3;
+L(bState) = 116 .* Y(bState) .^ (1/3) - 16;
+L(~bState) = (29/3)^3 .* Y(~bState);
+
+% Sometimes in the event that X and Y are 0, U and V are also computed as
+% Nans. to prevent it, set Nan values to 0(default);
+tmp2 = isnan(U);
+tmp3 = isnan(V);
+U(tmp2) = 0;
+V(tmp3) = 0;
+
+Image(:,:,1) = L;   % L*
+Image(:,:,2) = U;   % u*
+Image(:,:,3) = V;   % v*
+return;  
+
+function AdjustedGrey = Recursive_adjustment(image, GreyImage, N, K, P)
+% I stopped developing this, so this is still incomplete.
+% Local adjustment function
+% image = the original image
+% GreyImage = the grey image in VAC format calculated from the original I
+% N = how many laplacian pyramid depths.
+% K = user defined values
+% P = how many times contrast is squared. (should be 0 <= P <= 1)
+
+N = N - 1;
+if N == -1
+    AdjustedGrey = zeros(size(GreyImage), class(GreyImage));
+    return
+end
+
+% Compute Hi(G_L*)
+reducedG = GPReduce(GreyImage);
+expandedG = GPExpand(reducedG, size(GreyImage));
+Hi_G = GreyImage - expandedG;
+
+% Compute Hi(Image)
+reducedImage = GPReduce(image);
+tmp = size(image); tmp = [tmp(1), tmp(2)];
+expandedImage = GPExpand(reducedImage, tmp); clear tmp;
+deltaE = image - expandedImage; % the bandpass Image == deltaE (depth - N)
+
+% a (-) value causes some value out of the range of Lab
+deltaE = abs(deltaE);
+deltaE = colorspace('rgb->lab', deltaE);
+image_L = deltaE(:,:, 1); % extract L
+image_a = deltaE(:,:, 2); % extract a
+image_b = deltaE(:,:, 3); % extract b
+
+% It is time to compute delta_N
+numerator = (image_L .^ 2 + image_a .^ 2 + image_b .^ 2) .^ (0.5) ;
+denominator = abs(Hi_G);
+% (denominator X= 0) : the denominator can't be zero because is is a
+% denominator. We concluded that we will put regularization values such as
+% almost zero and a similar value to the numerator.
+denominator(denominator == 0) = numerator(denominator == 0); % ./ 0.5;
+
+disparate_N = numerator ./ denominator;
+disparate_N = disparate_N .^ P;
+
+
+% Compute the return value
+maximum_Ndepth = 4;
+AdjustedGrey = K(maximum_Ndepth - N) * disparate_N .* Hi_G;
+AdjustedGrey = AdjustedGrey + Recursive_adjustment(image, AdjustedGrey, N, K, P);
+
+
+
+
+

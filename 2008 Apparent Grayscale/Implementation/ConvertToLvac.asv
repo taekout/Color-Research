@@ -1,0 +1,26 @@
+function Lvac = ConvertToLvac(imageMatrixOfLuv)
+
+tempXYZ = colorspace('Luv->xyz',imageMatrixOfLuv);
+
+Uc = 3.8016/19.2171;
+Vc = 9/19.2171;
+
+% the 3rd dimension of imageMatrixLuv is v values.
+% the 2rd dimension of imageMatrixLuv is u values.
+theta = atan( (imageMatrixOfLuv(:,:,3) - Vc) ./ (imageMatrixOfLuv(:,:,2) - Uc) );
+% compute func_Q value using theta
+func_Q = -0.01585 * theta - 0.03017 * cos(theta) - 0.04556 * cos(2*theta) - 0.02667 * cos(3 * theta) - 0.00295 * cos(4*theta) + 0.14592 * sin(theta) + 0.05084 * sin(2 * theta) - 0.01900 * sin(3 * theta) - 0.00764 * sin(4 * theta);
+% compute K_br
+K_br = 0.2717 * (6.469 + 6.362 * (20^0.4495)  ) / (6.469 + (20^0.4495));
+% compute S_uv  !. (u,v) = respectively, the 2nd and 3rd dimension of
+                                                     % imagematrixLuv
+S_uv = 13 * ((imageMatrixOfLuv(:,:,2) - Uc).^2 + (imageMatrixOfLuv(:,:,3) - Vc).^2).^0.5;
+
+% compute L* ... Y = the 2nd dimension of XYZ matrix.
+Lstar = 116 * tempXYZ(:,:,2).^(1/3) - 16;
+       %116 * tempXYZ(:,:,2).^(1/3) - 16
+% compute Lvac , the returned value.
+Lvac = Lstar + Lstar .* S_uv .* ((func_Q * -0.1340) + (K_br*0.0872));
+
+
+

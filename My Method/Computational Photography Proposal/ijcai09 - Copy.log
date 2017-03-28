@@ -1,0 +1,555 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2010.12.2)  5 DEC 2010 14:51
+entering extended mode
+**C:/Users/Jack*Taekyu*Shin/Desktop/Color*Research/My*Method/Computational*Phot
+ography*Proposal/ijcai09*-*Copy.tex
+
+("C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Method/Computational Phot
+ography Proposal/ijcai09 - Copy.tex"
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman, ngerman, german-x-2009-06-19, ngerman-x-2009-06-19, french, loaded.
+IJCAI-09 Instructions for Authors
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\size10.clo"
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Users\Jack Taekyu Shin\Desktop\Color Research\My Method\Computational Phot
+ography Proposal\ijcai09.sty"
+Conference Style, version of 6 September 1995 (revised Nov 2000)
+\titlebox=\skip43
+Named Citation Style, version of 30 November 1994
+) ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2010/02/14 v0.04n Graphics/color for pdfTeX
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\subfigure\subfigure.sty"
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip44
+\subfigcapskip=\skip45
+\subfigcaptopadj=\dimen105
+\subfigbottomskip=\skip46
+\subfigcapmargin=\dimen106
+\subfiglabelskip=\skip47
+\c@subfigure=\count88
+\c@lofdepth=\count89
+\c@subtable=\count90
+\c@lotdepth=\count91
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\subfigure\subfigure.cfg")
+\subfig@top=\skip48
+\subfig@bottom=\skip49
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\psnfss\times.sty"
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+("C:\Users\Jack Taekyu Shin\Desktop\Color Research\My Method\Computational Phot
+ography Proposal\ijcai09 - Copy.aux"
+
+LaTeX Warning: Label `fig:edge-a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:edge-a' multiply defined.
+
+
+LaTeX Warning: Label `fig:edge-b' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:edge-b' multiply defined.
+
+
+LaTeX Warning: Label `fig:edge-c' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:edge-c' multiply defined.
+
+
+LaTeX Warning: Label `fig:edge-a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:edge-a' multiply defined.
+
+
+LaTeX Warning: Label `fig:edge-b' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:edge-b' multiply defined.
+
+
+LaTeX Warning: Label `fig:edge-a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:edge-a' multiply defined.
+
+
+LaTeX Warning: Label `fig:edge-b' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:edge-b' multiply defined.
+
+
+LaTeX Warning: Label `fig:edge-c' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:edge-c' multiply defined.
+
+
+LaTeX Warning: Label `fig:edge-a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:edge-a' multiply defined.
+
+
+LaTeX Warning: Label `fig:edge-b' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:edge-b' multiply defined.
+
+
+LaTeX Warning: Label `fig:edge-c' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:edge-c' multiply defined.
+
+
+LaTeX Warning: Label `fig:edge-a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:edge-a' multiply defined.
+
+
+LaTeX Warning: Label `fig:edge-b' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:edge-b' multiply defined.
+
+
+LaTeX Warning: Label `fig:edge-c' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:edge-c' multiply defined.
+
+
+LaTeX Warning: Label `fig:edge-a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:edge-a' multiply defined.
+
+
+LaTeX Warning: Label `fig:edge-b' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:edge-b' multiply defined.
+
+
+LaTeX Warning: Label `fig:edge-c' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:edge-c' multiply defined.
+
+
+LaTeX Warning: Label `fig:edge-a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:edge-a' multiply defined.
+
+
+LaTeX Warning: Label `fig:edge-b' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:edge-b' multiply defined.
+
+
+LaTeX Warning: Label `fig:edge-c' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:edge-c' multiply defined.
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
+LaTeX Font Info:    ... okay on input line 25.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 25.
+ ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\psnfss\ot1ptm.fd"
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\context\base\supp-pdf.tex"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count92
+\scratchdimen=\dimen107
+\scratchbox=\box26
+\nofMPsegments=\count93
+\nofMParguments=\count94
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count95
+\MPscratchDim=\dimen108
+\MPnumerator=\count96
+\everyMPtoPDFconversion=\toks16
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 27.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 27.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 27.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 27.
+
+Underfull \hbox (badness 1968) in paragraph at lines 35--41
+\OT1/ptm/m/it/10 Perceptually En-hanced Non-linear Color-to-Gray \OT1/ptm/m/n/1
+0 Color-
+ []
+
+
+Underfull \hbox (badness 1521) in paragraph at lines 35--41
+\OT1/ptm/m/n/10 to-gray con-ver-sion is use-ful in many im-age pro-cess-ing
+ []
+
+
+Underfull \hbox (badness 1803) in paragraph at lines 35--41
+\OT1/ptm/m/n/10 as-pects to en-sure the ap-pro-pri-ate con-tain-ment of color
+ []
+
+
+Underfull \hbox (badness 1496) in paragraph at lines 35--41
+\OT1/ptm/m/n/10 to-gray con-ver-sion en-hanced with fea-ture dis-crim-i-nal-ity
+,
+ []
+
+
+Underfull \hbox (badness 3989) in paragraph at lines 35--41
+\OT1/ptm/m/n/10 K) pre-dic-tor to achieve per-cep-tu-ally ac-cu-rate im-ages.
+ []
+
+
+Underfull \hbox (badness 1221) in paragraph at lines 35--41
+\OT1/ptm/m/n/10 and dis-crim-inabil-ity of greyscale, we be-lieve that there
+ []
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 35--41
+\OT1/ptm/m/n/10 are still needs for im-prove-ments over sat-is-fy-ing color-
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 35--41
+\OT1/ptm/m/n/10 that in-verse color-ordering de-pend-ing on sat-u-ra-tion may
+ []
+
+
+Overfull \hbox (75.32722pt too wide) in paragraph at lines 35--41
+\OT1/ptm/m/n/10 tion.<AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACHECK>
+ []
+
+
+Underfull \hbox (badness 2368) in paragraph at lines 35--41
+\OT1/ptm/m/n/10 to in-cor-po-rate high dy-namic range of col-ors prop-erly.
+ []
+
+
+Underfull \hbox (badness 1320) in paragraph at lines 35--41
+\OT1/ptm/m/n/10 exaggeration of dy-namic range col-ors, prop-erly deal-ing
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{C:/ProgramData/MiKTeX/2.8/pdftex/config/pdftex.map}
+
+
+
+]
+<input4x4.jpg, id=8, 255.95625pt x 255.95625pt>
+File: input4x4.jpg Graphic file (type jpg)
+ <use input4x4.jpg>
+<smithartifact.jpg, id=9, 255.95625pt x 255.95625pt>
+File: smithartifact.jpg Graphic file (type jpg)
+ <use smithartifact.jpg>
+<mymethod4x4.jpg, id=10, 255.95625pt x 255.95625pt>
+File: mymethod4x4.jpg Graphic file (type jpg)
+ <use mymethod4x4.jpg>
+<hueorder.jpg, id=11, 150.5625pt x 149.05687pt>
+File: hueorder.jpg Graphic file (type jpg)
+ <use hueorder.jpg>
+<goochartifact.jpg, id=12, 150.5625pt x 149.05687pt>
+File: goochartifact.jpg Graphic file (type jpg)
+ <use goochartifact.jpg>
+<mymethodhueorder.jpg, id=13, 200.75pt x 198.7425pt>
+File: mymethodhueorder.jpg Graphic file (type jpg)
+
+<use mymethodhueorder.jpg>
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 59.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 59.
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--63
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--63
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--63
+
+ []
+
+
+Underfull \hbox (badness 2035) in paragraph at lines 56--63
+\OT1/ptm/m/n/10 One of the most con-tem-po-ra-ne-ous re-search [] Gooch \OT1/pt
+m/m/it/10 et
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--63
+
+ []
+
+
+Underfull \hbox (badness 2856) in paragraph at lines 56--63
+\OT1/ptm/m/n/10 Re-coloring Im-ages for Gamuts of Lower Di-men-sions
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--63
+
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 56--63
+[] \OT1/ptm/m/n/10 Neu-mann \OT1/ptm/m/it/10 et al.\OT1/ptm/m/n/10 , 2007[] ex-
+plores Im-ages gra-di-ent field
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--63
+
+ []
+
+
+Underfull \hbox (badness 2293) in paragraph at lines 56--63
+\OT1/ptm/m/n/10 Smith et al. in 2008 ex-plores us-ing Nay-atani color
+ []
+
+
+Underfull \hbox (badness 2970) in paragraph at lines 56--63
+\OT1/ptm/m/n/10 ho-mo-ge-neous map-pings among neigh-bor-ing pix-els due
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 56--63
+\OT1/ptm/m/n/10 to the dy-namic lo-cal map-ping not con-sid-er-ing map-ping
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--63
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 56--63
+
+ []
+
+
+Underfull \hbox (badness 2134) in paragraph at lines 70--77
+\OT1/ptm/m/n/10 Mapping ac-cu-racy: Af-ter the color-to-grey con-ver-sion,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--77
+
+ []
+
+[2 <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Method/Computational Ph
+otography Proposal/input4x4.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Resea
+rch/My Method/Computational Photography Proposal/smithartifact.jpg> <C:/Users/J
+ack Taekyu Shin/Desktop/Color Research/My Method/Computational Photography Prop
+osal/mymethod4x4.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Meth
+od/Computational Photography Proposal/hueorder.jpg> <C:/Users/Jack Taekyu Shin/
+Desktop/Color Research/My Method/Computational Photography Proposal/goochartifa
+ct.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Method/Computation
+al Photography Proposal/mymethodhueorder.jpg>]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 79.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 87.
+File: hueorder.jpg Graphic file (type jpg)
+ <use hueorder.jpg>
+<colororder2_Nayatani.png, id=19, 200.75pt x 198.7425pt>
+File: colororder2_Nayatani.png Graphic file (type png)
+
+<use colororder2_Nayatani.png>
+<rodconecolors.jpg, id=20, 272.51813pt x 279.29344pt>
+File: rodconecolors.jpg Graphic file (type jpg)
+ <use rodconecolors.jpg>
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 109.
+
+[3 <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Method/Computational Ph
+otography Proposal/colororder2_Nayatani.png (PNG copy)> <C:/Users/Jack Taekyu S
+hin/Desktop/Color Research/My Method/Computational Photography Proposal/rodcone
+colors.jpg>]
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
+
+ []
+
+<./ResultWith0.5/colororder2.jpg, id=25, 150.5625pt x 149.05687pt>
+File: ./ResultWith0.5/colororder2.jpg Graphic file (type jpg)
+
+<use ./ResultWith0.5/colororder2.jpg>
+<./ResultWith0.5/colororder2Grey.jpg, id=26, 200.75pt x 198.7425pt>
+File: ./ResultWith0.5/colororder2Grey.jpg Graphic file (type jpg)
+
+<use ./ResultWith0.5/colororder2Grey.jpg>
+<./ResultWith0.5/colororder2Grey3.jpg, id=27, 200.75pt x 198.7425pt>
+File: ./ResultWith0.5/colororder2Grey3.jpg Graphic file (type jpg)
+
+<use ./ResultWith0.5/colororder2Grey3.jpg>
+File: ./ResultWith0.5/colororder2.jpg Graphic file (type jpg)
+
+<use ./ResultWith0.5/colororder2.jpg>
+File: ./ResultWith0.5/colororder2Grey.jpg Graphic file (type jpg)
+
+<use ./ResultWith0.5/colororder2Grey.jpg>
+File: ./ResultWith0.5/colororder2Grey3.jpg Graphic file (type jpg)
+
+<use ./ResultWith0.5/colororder2Grey3.jpg>
+File: ./ResultWith0.5/colororder2.jpg Graphic file (type jpg)
+
+<use ./ResultWith0.5/colororder2.jpg>
+File: ./ResultWith0.5/colororder2Grey.jpg Graphic file (type jpg)
+
+<use ./ResultWith0.5/colororder2Grey.jpg>
+File: ./ResultWith0.5/colororder2Grey3.jpg Graphic file (type jpg)
+
+<use ./ResultWith0.5/colororder2Grey3.jpg>
+File: ./ResultWith0.5/colororder2.jpg Graphic file (type jpg)
+
+<use ./ResultWith0.5/colororder2.jpg>
+File: ./ResultWith0.5/colororder2Grey.jpg Graphic file (type jpg)
+
+<use ./ResultWith0.5/colororder2Grey.jpg>
+File: ./ResultWith0.5/colororder2Grey3.jpg Graphic file (type jpg)
+
+<use ./ResultWith0.5/colororder2Grey3.jpg>
+File: ./ResultWith0.5/colororder2.jpg Graphic file (type jpg)
+
+<use ./ResultWith0.5/colororder2.jpg>
+File: ./ResultWith0.5/colororder2Grey.jpg Graphic file (type jpg)
+
+<use ./ResultWith0.5/colororder2Grey.jpg>
+File: ./ResultWith0.5/colororder2Grey3.jpg Graphic file (type jpg)
+
+<use ./ResultWith0.5/colororder2Grey3.jpg>
+("C:\Users\Jack Taekyu Shin\Desktop\Color Research\My Method\Computational Phot
+ography Proposal\ijcai09 - Copy.bbl"
+Underfull \hbox (badness 1137) in paragraph at lines 21--24
+\OT1/ptm/m/n/10 Tum-blin, and Bruce Gooch.  Color2gray: Salience-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--30
+[]\OT1/ptm/m/n/10 Mark Grund-land and
+ []
+
+
+Underfull \hbox (badness 1527) in paragraph at lines 27--30
+\OT1/ptm/m/n/10 color to grayscale con-ver-sion.  \OT1/ptm/m/it/10 Pat-tern Rec
+og-ni-tion\OT1/ptm/m/n/10 ,
+ []
+
+[4]) [5 <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Method/Computation
+al Photography Proposal/ResultWith0.5/colororder2.jpg> <C:/Users/Jack Taekyu Sh
+in/Desktop/Color Research/My Method/Computational Photography Proposal/ResultWi
+th0.5/colororder2Grey.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My
+ Method/Computational Photography Proposal/ResultWith0.5/colororder2Grey3.jpg>]
+
+("C:\Users\Jack Taekyu Shin\Desktop\Color Research\My Method\Computational Phot
+ography Proposal\ijcai09 - Copy.aux")
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1252 strings out of 495285
+ 17762 string characters out of 3179794
+ 77941 words of memory out of 3000000
+ 4453 multiletter control sequences out of 15000+200000
+ 24415 words of font info for 48 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 25i,10n,24p,1731b,272s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.8/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
+m Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program 
+Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files
+ (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x
+86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/
+MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/Mi
+KTeX 2.8/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files (x86)/MiKTe
+X 2.8/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2
+.8/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/ty
+pe1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/urw/tim
+es/utmri8a.pfb>
+Output written on "ijcai09 - Copy.pdf" (5 pages, 293344 bytes).
+PDF statistics:
+ 74 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+

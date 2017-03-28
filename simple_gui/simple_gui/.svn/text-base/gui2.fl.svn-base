@@ -1,0 +1,74 @@
+# data file for the Fltk User Interface Designer (fluid)
+version 1.0106 
+header_name {.h} 
+code_name {.cxx}
+decl {\#include "file_chooser.h"} {} 
+
+Function {make_ctrl_window()} {open
+} {
+  Fl_Window {} {open
+    xywh {346 151 278 579} type Double color 245 visible
+  } {
+    Fl_Group {} {open
+      xywh {5 10 265 430} box DOWN_BOX color 215
+    } {
+      Fl_Dial thetaD {
+        label theta
+        callback updateTheta selected
+        xywh {99 25 95 90} box OSHADOW_BOX color 45 selection_color 136 labeltype EMBOSSED_LABEL maximum 360 step 1
+      }
+      Fl_Roller alphaR {
+        label alpha
+        callback updateAlpha
+        xywh {91 145 110 25} type Horizontal color 50 selection_color 133 labeltype EMBOSSED_LABEL minimum 1 maximum 100 step 1 value 10
+      }
+      Fl_Roller muR {
+        label mu
+        callback updateMu
+        xywh {91 210 110 25} type Horizontal labeltype EMBOSSED_LABEL minimum 1 maximum 1000 step 1 value 32
+      }
+      Fl_Check_Button {} {
+        label Quantize
+        callback EnableQuantize
+        xywh {72 270 25 25} down_box DOWN_BOX value 1 labeltype EMBOSSED_LABEL
+      }
+      Fl_Value_Input numQColorsV {
+        label {Num Colors}
+        callback updateNumQColors
+        xywh {171 293 25 25} labeltype EMBOSSED_LABEL maximum 64000 value 64
+      }
+      Fl_Button {} {
+        label {Run Color2Gray}
+        callback run_c2g_callback
+        xywh {20 388 241 30} box PLASTIC_DOWN_BOX color 246 labeltype EMBOSSED_LABEL labelcolor 136
+      }
+      Fl_Value_Input alphaV {
+        callback updateAlphaV
+        xywh {25 145 56 25}
+      }
+      Fl_Value_Input muV {
+        callback updateMuV
+        xywh {25 210 56 25}
+      }
+      Fl_Value_Input thetaV {
+        callback updateThetaV
+        xywh {25 55 56 25}
+      }
+      Fl_Button {} {
+        label LoadSource
+        callback LoadSource
+        xywh {17 340 241 25} box PLASTIC_THIN_UP_BOX color 173 labeltype EMBOSSED_LABEL
+      }
+    }
+    Fl_Button {} {
+      label {Run Approx. C2G Theta Circle}
+      callback run_c2g_thetaCircle
+      xywh {13 475 241 35} box PLASTIC_DOWN_BOX color 251 selection_color 246 labeltype EMBOSSED_LABEL labelcolor 121
+    }
+    Fl_Button {} {
+      label Quit
+      callback quit_cb
+      xywh {15 525 236 35} box PLASTIC_THIN_UP_BOX labeltype EMBOSSED_LABEL
+    }
+  }
+} 

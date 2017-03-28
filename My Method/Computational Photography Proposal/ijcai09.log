@@ -1,0 +1,1044 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (MiKTeX 2.8) (preloaded format=pdflatex 2010.12.2)  20 DEC 2010 21:24
+entering extended mode
+**C:/Users/Jack*Taekyu*Shin/Desktop/Color*Research/My*Method/Computational*Phot
+ography*Proposal/ijcai09.tex
+
+("C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Method/Computational Phot
+ography Proposal/ijcai09.tex"
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman, ngerman, german-x-2009-06-19, ngerman-x-2009-06-19, french, loaded.
+IJCAI-09 Instructions for Authors
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\size10.clo"
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Users\Jack Taekyu Shin\Desktop\Color Research\My Method\Computational Phot
+ography Proposal\ijcai09.sty"
+Conference Style, version of 6 September 1995 (revised Nov 2000)
+\titlebox=\skip43
+Named Citation Style, version of 30 November 1994
+) ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2010/02/14 v0.04n Graphics/color for pdfTeX
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\subfigure\subfigure.sty"
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip44
+\subfigcapskip=\skip45
+\subfigcaptopadj=\dimen105
+\subfigbottomskip=\skip46
+\subfigcapmargin=\dimen106
+\subfiglabelskip=\skip47
+\c@subfigure=\count88
+\c@lofdepth=\count89
+\c@subtable=\count90
+\c@lotdepth=\count91
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\subfigure\subfigure.cfg")
+\subfig@top=\skip48
+\subfig@bottom=\skip49
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\psnfss\times.sty"
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\multirow\multirow.sty"
+\bigstrutjot=\dimen107
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\latexsym.sty"
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+)
+("C:\Users\Jack Taekyu Shin\Desktop\Color Research\My Method\Computational Phot
+ography Proposal\ijcai09.aux"
+
+LaTeX Warning: Label `fig:edge-a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:edge-a' multiply defined.
+
+
+LaTeX Warning: Label `fig:edge-b' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:edge-b' multiply defined.
+
+
+LaTeX Warning: Label `fig:edge-c' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:edge-c' multiply defined.
+
+
+LaTeX Warning: Label `fig:edge-d' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:edge-d' multiply defined.
+
+
+LaTeX Warning: Label `fig:edge-a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:edge-a' multiply defined.
+
+
+LaTeX Warning: Label `fig:edge-b' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:edge-b' multiply defined.
+
+
+LaTeX Warning: Label `fig:edge-c' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:edge-c' multiply defined.
+
+
+LaTeX Warning: Label `fig:edge-d' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:edge-d' multiply defined.
+
+
+LaTeX Warning: Label `fig:edge-a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:edge-a' multiply defined.
+
+
+LaTeX Warning: Label `fig:edge-b' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:edge-b' multiply defined.
+
+
+LaTeX Warning: Label `fig:edge-c' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:edge-c' multiply defined.
+
+
+LaTeX Warning: Label `fig:edge-d' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:edge-d' multiply defined.
+
+
+LaTeX Warning: Label `fig:edge-a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:edge-a' multiply defined.
+
+
+LaTeX Warning: Label `fig:edge-b' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:edge-b' multiply defined.
+
+
+LaTeX Warning: Label `fig:edge-a' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:edge-a' multiply defined.
+
+
+LaTeX Warning: Label `fig:edge-b' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:edge-b' multiply defined.
+
+
+LaTeX Warning: Label `fig:edge-b' multiply defined.
+
+
+LaTeX Warning: Label `sub@fig:edge-b' multiply defined.
+
+)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
+LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 30.
+ ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\psnfss\ot1ptm.fd"
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+("C:\Program Files (x86)\MiKTeX 2.8\tex\context\base\supp-pdf.tex"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count92
+\scratchdimen=\dimen108
+\scratchbox=\box26
+\nofMPsegments=\count93
+\nofMParguments=\count94
+\everyMPshowfont=\toks15
+\MPscratchCnt=\count95
+\MPscratchDim=\dimen109
+\MPnumerator=\count96
+\everyMPtoPDFconversion=\toks16
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 32.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 32.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 32.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 32.
+ ("C:\Program Files (x86)\MiKTeX 2.8\tex\latex\base\ulasy.fd"
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 32.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{C:/ProgramData/MiKTeX/2.8/pdftex/config/pdftex.map}
+
+
+
+]
+<input4x4.jpg, id=8, 255.95625pt x 255.95625pt>
+File: input4x4.jpg Graphic file (type jpg)
+ <use input4x4.jpg>
+<smithartifact.jpg, id=9, 255.95625pt x 255.95625pt>
+File: smithartifact.jpg Graphic file (type jpg)
+ <use smithartifact.jpg>
+<mymethod4x4.jpg, id=10, 255.95625pt x 255.95625pt>
+File: mymethod4x4.jpg Graphic file (type jpg)
+ <use mymethod4x4.jpg>
+<hueorder.jpg, id=11, 150.5625pt x 149.05687pt>
+File: hueorder.jpg Graphic file (type jpg)
+ <use hueorder.jpg>
+<goochartifact.jpg, id=12, 150.5625pt x 149.05687pt>
+File: goochartifact.jpg Graphic file (type jpg)
+ <use goochartifact.jpg>
+<mymethodhueorder.jpg, id=13, 200.75pt x 198.7425pt>
+File: mymethodhueorder.jpg Graphic file (type jpg)
+
+<use mymethodhueorder.jpg>
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 70.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 70.
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no ™ in font ptmr7t!
+
+Underfull \hbox (badness 2057) in paragraph at lines 67--74
+\OT1/ptm/m/n/10 Previously, [] BALA, 2004[] pre-sented a space-dependant
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--74
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--74
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--74
+
+ []
+
+
+Underfull \hbox (badness 2035) in paragraph at lines 67--74
+\OT1/ptm/m/n/10 One of the most con-tem-po-ra-ne-ous re-search [] Gooch \OT1/pt
+m/m/it/10 et
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--74
+
+ []
+
+
+Underfull \hbox (badness 2856) in paragraph at lines 67--74
+\OT1/ptm/m/n/10 Re-coloring Im-ages for Gamuts of Lower Di-men-sions
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--74
+
+ []
+
+
+Underfull \hbox (badness 1648) in paragraph at lines 67--74
+[] \OT1/ptm/m/n/10 Neu-mann \OT1/ptm/m/it/10 et al.\OT1/ptm/m/n/10 , 2007[] ex-
+plores Im-ages gra-di-ent field
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--74
+
+ []
+
+
+Underfull \hbox (badness 2970) in paragraph at lines 67--74
+\OT1/ptm/m/n/10 ho-mo-ge-neous map-pings among neigh-bor-ing pix-els due
+ []
+
+
+Underfull \hbox (badness 1062) in paragraph at lines 67--74
+\OT1/ptm/m/n/10 to the dy-namic lo-cal map-ping not con-sid-er-ing map-ping
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--74
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--74
+
+ []
+
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 79.
+
+Underfull \hbox (badness 1184) in paragraph at lines 79--86
+\OT1/ptm/m/n/10 val-ues of greyscale. Our post-processed map-ping well
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--86
+
+ []
+
+[2 <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Method/Computational Ph
+otography Proposal/input4x4.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Resea
+rch/My Method/Computational Photography Proposal/smithartifact.jpg> <C:/Users/J
+ack Taekyu Shin/Desktop/Color Research/My Method/Computational Photography Prop
+osal/mymethod4x4.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Meth
+od/Computational Photography Proposal/hueorder.jpg> <C:/Users/Jack Taekyu Shin/
+Desktop/Color Research/My Method/Computational Photography Proposal/goochartifa
+ct.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Method/Computation
+al Photography Proposal/mymethodhueorder.jpg>]
+<ColorOrdering/hue-order.jpg, id=19, 150.5625pt x 149.05687pt>
+File: ColorOrdering/hue-order.jpg Graphic file (type jpg)
+
+<use ColorOrdering/hue-order.jpg>
+<ColorOrdering/hue-order-p=1.jpg, id=20, 200.75pt x 198.7425pt>
+File: ColorOrdering/hue-order-p=1.jpg Graphic file (type jpg)
+
+<use ColorOrdering/hue-order-p=1.jpg>
+<ColorOrdering/hue-order-p=0.jpg, id=21, 200.75pt x 198.7425pt>
+File: ColorOrdering/hue-order-p=0.jpg Graphic file (type jpg)
+
+<use ColorOrdering/hue-order-p=0.jpg>
+<ColorOrdering/hue-order-p=-1.jpg, id=22, 200.75pt x 198.7425pt>
+File: ColorOrdering/hue-order-p=-1.jpg Graphic file (type jpg)
+
+<use ColorOrdering/hue-order-p=-1.jpg>
+<ColorOrdering/hue-order2.jpg, id=23, 579.17789pt x 579.17789pt>
+File: ColorOrdering/hue-order2.jpg Graphic file (type jpg)
+
+<use ColorOrdering/hue-order2.jpg>
+<ColorOrdering/hue-order2-p=1.jpg, id=24, 571.13374pt x 571.13374pt>
+File: ColorOrdering/hue-order2-p=1.jpg Graphic file (type jpg)
+
+<use ColorOrdering/hue-order2-p=1.jpg>
+<ColorOrdering/hue-order2-p=0.jpg, id=25, 571.13374pt x 571.13374pt>
+File: ColorOrdering/hue-order2-p=0.jpg Graphic file (type jpg)
+
+<use ColorOrdering/hue-order2-p=0.jpg>
+<ColorOrdering/hue-order2-p=-1.jpg, id=26, 571.13374pt x 571.13374pt>
+File: ColorOrdering/hue-order2-p=-1.jpg Graphic file (type jpg)
+
+<use ColorOrdering/hue-order2-p=-1.jpg>
+<ResultWith0.5/saturation.jpg, id=27, 289.08pt x 292.09125pt>
+File: ResultWith0.5/saturation.jpg Graphic file (type jpg)
+
+<use ResultWith0.5/saturation.jpg>
+<ColorOrdering/saturation-p=1.jpg, id=28, 385.44pt x 389.455pt>
+File: ColorOrdering/saturation-p=1.jpg Graphic file (type jpg)
+
+<use ColorOrdering/saturation-p=1.jpg>
+<ColorOrdering/saturation-p=0.jpg, id=29, 385.44pt x 389.455pt>
+File: ColorOrdering/saturation-p=0.jpg Graphic file (type jpg)
+
+<use ColorOrdering/saturation-p=0.jpg>
+<ColorOrdering/saturation-p=-1.jpg, id=30, 385.44pt x 389.455pt>
+File: ColorOrdering/saturation-p=-1.jpg Graphic file (type jpg)
+
+<use ColorOrdering/saturation-p=-1.jpg>
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 120.
+File: hueorder.jpg Graphic file (type jpg)
+ <use hueorder.jpg>
+<colororder2_Nayatani.png, id=31, 200.75pt x 198.7425pt>
+File: colororder2_Nayatani.png Graphic file (type png)
+
+<use colororder2_Nayatani.png>
+<rodconecolors.jpg, id=32, 272.51813pt x 279.29344pt>
+File: rodconecolors.jpg Graphic file (type jpg)
+ <use rodconecolors.jpg>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 141.
+[3 <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Method/Computational Ph
+otography Proposal/ColorOrdering/hue-order.jpg> <C:/Users/Jack Taekyu Shin/Desk
+top/Color Research/My Method/Computational Photography Proposal/ColorOrdering/h
+ue-order-p=1.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Method/C
+omputational Photography Proposal/ColorOrdering/hue-order-p=0.jpg> <C:/Users/Ja
+ck Taekyu Shin/Desktop/Color Research/My Method/Computational Photography Propo
+sal/ColorOrdering/hue-order-p=-1.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color 
+Research/My Method/Computational Photography Proposal/ColorOrdering/hue-order2.
+jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Method/Computational 
+Photography Proposal/ColorOrdering/hue-order2-p=1.jpg> <C:/Users/Jack Taekyu Sh
+in/Desktop/Color Research/My Method/Computational Photography Proposal/ColorOrd
+ering/hue-order2-p=0.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My 
+Method/Computational Photography Proposal/ColorOrdering/hue-order2-p=-1.jpg> <C
+:/Users/Jack Taekyu Shin/Desktop/Color Research/My Method/Computational Photogr
+aphy Proposal/ResultWith0.5/saturation.jpg> <C:/Users/Jack Taekyu Shin/Desktop/
+Color Research/My Method/Computational Photography Proposal/ColorOrdering/satur
+ation-p=1.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Method/Comp
+utational Photography Proposal/ColorOrdering/saturation-p=0.jpg> <C:/Users/Jack
+ Taekyu Shin/Desktop/Color Research/My Method/Computational Photography Proposa
+l/ColorOrdering/saturation-p=-1.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color R
+esearch/My Method/Computational Photography Proposal/colororder2_Nayatani.png (
+PNG copy)>] <pascu.jpg, id=37, 301.125pt x 301.125pt>
+File: pascu.jpg Graphic file (type jpg)
+ <use pascu.jpg>
+<pascugrey.jpg, id=38, 301.125pt x 301.125pt>
+File: pascugrey.jpg Graphic file (type jpg)
+ <use pascugrey.jpg>
+<pascu_ourresult.jpg, id=39, 301.125pt x 301.125pt>
+File: pascu_ourresult.jpg Graphic file (type jpg)
+ <use pascu_ourresult.jpg>
+Underfull \hbox (badness 10000) in paragraph at lines 192--194
+
+ []
+
+[4 <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Method/Computational Ph
+otography Proposal/rodconecolors.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color 
+Research/My Method/Computational Photography Proposal/pascu.jpg> <C:/Users/Jack
+ Taekyu Shin/Desktop/Color Research/My Method/Computational Photography Proposa
+l/pascugrey.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Method/Co
+mputational Photography Proposal/pascu_ourresult.jpg>]
+<othertechniqueresult/1/1.jpg, id=47, 292.84406pt x 293.59688pt>
+File: othertechniqueresult/1/1.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/1/1.jpg>
+<othertechniqueresult/1/1-mine-p=1.jpg, id=48, 390.45876pt x 391.4625pt>
+File: othertechniqueresult/1/1-mine-p=1.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/1/1-mine-p=1.jpg>
+Underfull \hbox (badness 10000) in paragraph at lines 203--203
+[]\OT1/ptm/m/n/9 (b)
+ []
+
+<othertechniqueresult/1/1-mine-p=-1.jpg, id=49, 390.45876pt x 391.4625pt>
+File: othertechniqueresult/1/1-mine-p=-1.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/1/1-mine-p=-1.jpg>
+Underfull \hbox (badness 10000) in paragraph at lines 204--204
+[]\OT1/ptm/m/n/9 (c)
+ []
+
+<othertechniqueresult/1/1-y.jpg, id=50, 292.84406pt x 293.59688pt>
+File: othertechniqueresult/1/1-y.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/1/1-y.jpg>
+<othertechniqueresult/1/1-bala.jpg, id=51, 292.84406pt x 293.59688pt>
+File: othertechniqueresult/1/1-bala.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/1/1-bala.jpg>
+<othertechniqueresult/1/1-gooch.jpg, id=52, 292.84406pt x 293.59688pt>
+File: othertechniqueresult/1/1-gooch.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/1/1-gooch.jpg>
+<othertechniqueresult/1/1-grund.jpg, id=53, 292.84406pt x 293.59688pt>
+File: othertechniqueresult/1/1-grund.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/1/1-grund.jpg>
+Underfull \hbox (badness 10000) in paragraph at lines 208--208
+[]\OT1/ptm/m/n/9 (g) Grund-
+ []
+
+<othertechniqueresult/1/1-kim.jpg, id=54, 292.84406pt x 293.59688pt>
+File: othertechniqueresult/1/1-kim.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/1/1-kim.jpg>
+<othertechniqueresult/1/1-neumann.jpg, id=55, 292.84406pt x 293.59688pt>
+File: othertechniqueresult/1/1-neumann.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/1/1-neumann.jpg>
+Underfull \hbox (badness 10000) in paragraph at lines 210--210
+[]\OT1/ptm/m/n/9 (i) Neu-
+ []
+
+<othertechniqueresult/1/1-rasche.jpg, id=56, 292.84406pt x 293.59688pt>
+File: othertechniqueresult/1/1-rasche.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/1/1-rasche.jpg>
+<othertechniqueresult/1/1-smith.jpg, id=57, 292.84406pt x 293.59688pt>
+File: othertechniqueresult/1/1-smith.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/1/1-smith.jpg>
+<othertechniqueresult/2/2.jpg, id=58, 150.5625pt x 33.12375pt>
+File: othertechniqueresult/2/2.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/2/2.jpg>
+<othertechniqueresult/2/2-mine-p=1.jpg, id=59, 200.75pt x 44.165pt>
+File: othertechniqueresult/2/2-mine-p=1.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/2/2-mine-p=1.jpg>
+<othertechniqueresult/2/2-mine-p=-1.jpg, id=60, 200.75pt x 44.165pt>
+File: othertechniqueresult/2/2-mine-p=-1.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/2/2-mine-p=-1.jpg>
+<othertechniqueresult/2/2-y.jpg, id=61, 150.5625pt x 33.12375pt>
+File: othertechniqueresult/2/2-y.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/2/2-y.jpg>
+<othertechniqueresult/2/2-bala.jpg, id=62, 150.5625pt x 33.12375pt>
+File: othertechniqueresult/2/2-bala.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/2/2-bala.jpg>
+<othertechniqueresult/2/2-gooch.jpg, id=63, 150.5625pt x 33.12375pt>
+File: othertechniqueresult/2/2-gooch.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/2/2-gooch.jpg>
+<othertechniqueresult/2/2-grund.jpg, id=64, 150.5625pt x 33.12375pt>
+File: othertechniqueresult/2/2-grund.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/2/2-grund.jpg>
+<othertechniqueresult/2/2-kim.jpg, id=65, 150.5625pt x 33.12375pt>
+File: othertechniqueresult/2/2-kim.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/2/2-kim.jpg>
+<othertechniqueresult/2/2-neumann.jpg, id=66, 150.5625pt x 33.12375pt>
+File: othertechniqueresult/2/2-neumann.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/2/2-neumann.jpg>
+<othertechniqueresult/2/2-rasche.jpg, id=67, 150.5625pt x 33.12375pt>
+File: othertechniqueresult/2/2-rasche.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/2/2-rasche.jpg>
+<othertechniqueresult/2/2-smith.jpg, id=68, 150.5625pt x 33.12375pt>
+File: othertechniqueresult/2/2-smith.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/2/2-smith.jpg>
+<othertechniqueresult/3/3.jpg, id=69, 293.59688pt x 195.73125pt>
+File: othertechniqueresult/3/3.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/3/3.jpg>
+<othertechniqueresult/3/3-mine-p=1.jpg, id=70, 391.4625pt x 260.975pt>
+File: othertechniqueresult/3/3-mine-p=1.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/3/3-mine-p=1.jpg>
+<othertechniqueresult/3/3-mine-p=-1.jpg, id=71, 391.4625pt x 260.975pt>
+File: othertechniqueresult/3/3-mine-p=-1.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/3/3-mine-p=-1.jpg>
+<othertechniqueresult/3/3-y.jpg, id=72, 293.59688pt x 195.73125pt>
+File: othertechniqueresult/3/3-y.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/3/3-y.jpg>
+<othertechniqueresult/3/3-bala.jpg, id=73, 293.59688pt x 195.73125pt>
+File: othertechniqueresult/3/3-bala.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/3/3-bala.jpg>
+<othertechniqueresult/3/3-gooch.jpg, id=74, 293.59688pt x 195.73125pt>
+File: othertechniqueresult/3/3-gooch.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/3/3-gooch.jpg>
+<othertechniqueresult/3/3-grund.jpg, id=75, 293.59688pt x 195.73125pt>
+File: othertechniqueresult/3/3-grund.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/3/3-grund.jpg>
+<othertechniqueresult/3/3-kim.jpg, id=76, 293.59688pt x 195.73125pt>
+File: othertechniqueresult/3/3-kim.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/3/3-kim.jpg>
+<othertechniqueresult/3/3-neumann.jpg, id=77, 293.59688pt x 195.73125pt>
+File: othertechniqueresult/3/3-neumann.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/3/3-neumann.jpg>
+<othertechniqueresult/3/3-rasche.jpg, id=78, 293.59688pt x 195.73125pt>
+File: othertechniqueresult/3/3-rasche.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/3/3-rasche.jpg>
+<othertechniqueresult/3/3-smith.jpg, id=79, 293.59688pt x 195.73125pt>
+File: othertechniqueresult/3/3-smith.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/3/3-smith.jpg>
+<othertechniqueresult/4/4.jpg, id=80, 150.5625pt x 149.05687pt>
+File: othertechniqueresult/4/4.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/4/4.jpg>
+<othertechniqueresult/4/4-mine-p=1.jpg, id=81, 200.75pt x 198.7425pt>
+File: othertechniqueresult/4/4-mine-p=1.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/4/4-mine-p=1.jpg>
+<othertechniqueresult/4/4-mine-p=0.jpg, id=82, 200.75pt x 198.7425pt>
+File: othertechniqueresult/4/4-mine-p=0.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/4/4-mine-p=0.jpg>
+<othertechniqueresult/4/4-y.jpg, id=83, 150.5625pt x 149.05687pt>
+File: othertechniqueresult/4/4-y.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/4/4-y.jpg>
+<othertechniqueresult/4/4-bala.jpg, id=84, 150.5625pt x 149.05687pt>
+File: othertechniqueresult/4/4-bala.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/4/4-bala.jpg>
+<othertechniqueresult/4/4-gooch.jpg, id=85, 150.5625pt x 149.05687pt>
+File: othertechniqueresult/4/4-gooch.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/4/4-gooch.jpg>
+<othertechniqueresult/4/4-grund.jpg, id=86, 150.5625pt x 149.05687pt>
+File: othertechniqueresult/4/4-grund.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/4/4-grund.jpg>
+<othertechniqueresult/4/4-kim.jpg, id=87, 150.5625pt x 149.05687pt>
+File: othertechniqueresult/4/4-kim.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/4/4-kim.jpg>
+<othertechniqueresult/4/4-neumann.jpg, id=88, 150.5625pt x 149.05687pt>
+File: othertechniqueresult/4/4-neumann.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/4/4-neumann.jpg>
+<othertechniqueresult/4/4-rasche.jpg, id=89, 150.5625pt x 149.05687pt>
+File: othertechniqueresult/4/4-rasche.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/4/4-rasche.jpg>
+<othertechniqueresult/4/4-smith.jpg, id=90, 150.5625pt x 149.05687pt>
+File: othertechniqueresult/4/4-smith.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/4/4-smith.jpg>
+<othertechniqueresult/5/5.jpg, id=91, 293.59688pt x 293.59688pt>
+File: othertechniqueresult/5/5.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/5/5.jpg>
+<othertechniqueresult/5/5-mine-p=1.jpg, id=92, 391.4625pt x 391.4625pt>
+File: othertechniqueresult/5/5-mine-p=1.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/5/5-mine-p=1.jpg>
+<othertechniqueresult/5/5-mine-p=-1.jpg, id=93, 391.4625pt x 391.4625pt>
+File: othertechniqueresult/5/5-mine-p=-1.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/5/5-mine-p=-1.jpg>
+<othertechniqueresult/5/5-y.jpg, id=94, 293.59688pt x 293.59688pt>
+File: othertechniqueresult/5/5-y.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/5/5-y.jpg>
+<othertechniqueresult/5/5-bala.jpg, id=95, 293.59688pt x 293.59688pt>
+File: othertechniqueresult/5/5-bala.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/5/5-bala.jpg>
+<othertechniqueresult/5/5-gooch.jpg, id=96, 293.59688pt x 293.59688pt>
+File: othertechniqueresult/5/5-gooch.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/5/5-gooch.jpg>
+<othertechniqueresult/5/5-grund.jpg, id=97, 293.59688pt x 293.59688pt>
+File: othertechniqueresult/5/5-grund.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/5/5-grund.jpg>
+<othertechniqueresult/5/5-kim.jpg, id=98, 293.59688pt x 293.59688pt>
+File: othertechniqueresult/5/5-kim.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/5/5-kim.jpg>
+<othertechniqueresult/5/5-neumann.jpg, id=99, 293.59688pt x 293.59688pt>
+File: othertechniqueresult/5/5-neumann.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/5/5-neumann.jpg>
+<othertechniqueresult/5/5-rasche.jpg, id=100, 293.59688pt x 293.59688pt>
+File: othertechniqueresult/5/5-rasche.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/5/5-rasche.jpg>
+<othertechniqueresult/5/5-smith.jpg, id=101, 293.59688pt x 293.59688pt>
+File: othertechniqueresult/5/5-smith.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/5/5-smith.jpg>
+<othertechniqueresult/6/6.jpg, id=102, 282.30469pt x 293.59688pt>
+File: othertechniqueresult/6/6.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/6/6.jpg>
+<othertechniqueresult/6/6-mine-p=1.jpg, id=103, 376.40625pt x 391.4625pt>
+File: othertechniqueresult/6/6-mine-p=1.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/6/6-mine-p=1.jpg>
+<othertechniqueresult/6/6-mine-p=-1.jpg, id=104, 376.40625pt x 391.4625pt>
+File: othertechniqueresult/6/6-mine-p=-1.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/6/6-mine-p=-1.jpg>
+<othertechniqueresult/6/6-y.jpg, id=105, 282.30469pt x 293.59688pt>
+File: othertechniqueresult/6/6-y.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/6/6-y.jpg>
+<othertechniqueresult/6/6-bala.jpg, id=106, 282.30469pt x 293.59688pt>
+File: othertechniqueresult/6/6-bala.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/6/6-bala.jpg>
+<othertechniqueresult/6/6-gooch.jpg, id=107, 282.30469pt x 293.59688pt>
+File: othertechniqueresult/6/6-gooch.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/6/6-gooch.jpg>
+<othertechniqueresult/6/6-grund.jpg, id=108, 282.30469pt x 293.59688pt>
+File: othertechniqueresult/6/6-grund.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/6/6-grund.jpg>
+<othertechniqueresult/6/6-kim.jpg, id=109, 282.30469pt x 293.59688pt>
+File: othertechniqueresult/6/6-kim.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/6/6-kim.jpg>
+<othertechniqueresult/6/6-neumann.jpg, id=110, 282.30469pt x 293.59688pt>
+File: othertechniqueresult/6/6-neumann.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/6/6-neumann.jpg>
+<othertechniqueresult/6/6-rasche.jpg, id=111, 282.30469pt x 293.59688pt>
+File: othertechniqueresult/6/6-rasche.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/6/6-rasche.jpg>
+<othertechniqueresult/6/6-smith.jpg, id=112, 282.30469pt x 293.59688pt>
+File: othertechniqueresult/6/6-smith.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/6/6-smith.jpg>
+<othertechniqueresult/7/7.jpg, id=113, 150.5625pt x 84.315pt>
+File: othertechniqueresult/7/7.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/7/7.jpg>
+<othertechniqueresult/7/7-mine-p=1.jpg, id=114, 200.75pt x 112.42pt>
+File: othertechniqueresult/7/7-mine-p=1.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/7/7-mine-p=1.jpg>
+<othertechniqueresult/7/7-mine-p=-1.jpg, id=115, 200.75pt x 112.42pt>
+File: othertechniqueresult/7/7-mine-p=-1.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/7/7-mine-p=-1.jpg>
+<othertechniqueresult/7/7-y.jpg, id=116, 150.5625pt x 84.315pt>
+File: othertechniqueresult/7/7-y.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/7/7-y.jpg>
+<othertechniqueresult/7/7-bala.jpg, id=117, 150.5625pt x 84.315pt>
+File: othertechniqueresult/7/7-bala.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/7/7-bala.jpg>
+<othertechniqueresult/7/7-gooch.jpg, id=118, 150.5625pt x 84.315pt>
+File: othertechniqueresult/7/7-gooch.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/7/7-gooch.jpg>
+<othertechniqueresult/7/7-grund.jpg, id=119, 150.5625pt x 84.315pt>
+File: othertechniqueresult/7/7-grund.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/7/7-grund.jpg>
+<othertechniqueresult/7/7-kim.jpg, id=120, 150.5625pt x 84.315pt>
+File: othertechniqueresult/7/7-kim.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/7/7-kim.jpg>
+<othertechniqueresult/7/7-neumann.jpg, id=121, 150.5625pt x 84.315pt>
+File: othertechniqueresult/7/7-neumann.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/7/7-neumann.jpg>
+<othertechniqueresult/7/7-rasche.jpg, id=122, 150.5625pt x 84.315pt>
+File: othertechniqueresult/7/7-rasche.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/7/7-rasche.jpg>
+<othertechniqueresult/7/7-smith.jpg, id=123, 150.5625pt x 84.315pt>
+File: othertechniqueresult/7/7-smith.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/7/7-smith.jpg>
+<othertechniqueresult/8/8.jpg, id=124, 293.59688pt x 290.58563pt>
+File: othertechniqueresult/8/8.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/8/8.jpg>
+<othertechniqueresult/8/8-mine-p=1.jpg, id=125, 180.675pt x 178.6675pt>
+File: othertechniqueresult/8/8-mine-p=1.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/8/8-mine-p=1.jpg>
+<othertechniqueresult/8/8-mine-p=-1.jpg, id=126, 180.675pt x 178.6675pt>
+File: othertechniqueresult/8/8-mine-p=-1.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/8/8-mine-p=-1.jpg>
+<othertechniqueresult/8/8-y.jpg, id=127, 293.59688pt x 290.58563pt>
+File: othertechniqueresult/8/8-y.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/8/8-y.jpg>
+<othertechniqueresult/8/8-bala.jpg, id=128, 293.59688pt x 290.58563pt>
+File: othertechniqueresult/8/8-bala.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/8/8-bala.jpg>
+<othertechniqueresult/8/8-gooch.jpg, id=129, 293.59688pt x 290.58563pt>
+File: othertechniqueresult/8/8-gooch.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/8/8-gooch.jpg>
+<othertechniqueresult/8/8-grund.jpg, id=130, 293.59688pt x 290.58563pt>
+File: othertechniqueresult/8/8-grund.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/8/8-grund.jpg>
+<othertechniqueresult/8/8-kim.jpg, id=131, 293.59688pt x 290.58563pt>
+File: othertechniqueresult/8/8-kim.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/8/8-kim.jpg>
+<othertechniqueresult/8/8-neumann.jpg, id=132, 293.59688pt x 290.58563pt>
+File: othertechniqueresult/8/8-neumann.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/8/8-neumann.jpg>
+<othertechniqueresult/8/8-rasche.jpg, id=133, 293.59688pt x 290.58563pt>
+File: othertechniqueresult/8/8-rasche.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/8/8-rasche.jpg>
+<othertechniqueresult/8/8-smith.jpg, id=134, 293.59688pt x 290.58563pt>
+File: othertechniqueresult/8/8-smith.jpg Graphic file (type jpg)
+
+<use othertechniqueresult/8/8-smith.jpg>
+("C:\Users\Jack Taekyu Shin\Desktop\Color Research\My Method\Computational Phot
+ography Proposal\ijcai09.bbl"
+Missing character: There is no â in font ptmr7t!
+Missing character: There is no € in font ptmr7t!
+Missing character: There is no “ in font ptmr7t!
+
+Underfull \hbox (badness 1137) in paragraph at lines 22--25
+\OT1/ptm/m/n/10 Tum-blin, and Bruce Gooch.  Color2gray: Salience-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 28--31
+[]\OT1/ptm/m/n/10 Mark Grund-land and
+ []
+
+
+Underfull \hbox (badness 1527) in paragraph at lines 28--31
+\OT1/ptm/m/n/10 color to grayscale con-ver-sion.  \OT1/ptm/m/it/10 Pat-tern Rec
+og-ni-tion\OT1/ptm/m/n/10 ,
+ []
+
+[5]
+Missing character: There is no Ã in font ptmr7t!
+Missing character: There is no « in font ptmr7t!
+) [6
+
+] [7 <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Method/Computational 
+Photography Proposal/othertechniqueresult/1/1.jpg> <C:/Users/Jack Taekyu Shin/D
+esktop/Color Research/My Method/Computational Photography Proposal/othertechniq
+ueresult/1/1-mine-p=1.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My
+ Method/Computational Photography Proposal/othertechniqueresult/1/1-mine-p=-1.j
+pg> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Method/Computational P
+hotography Proposal/othertechniqueresult/1/1-y.jpg> <C:/Users/Jack Taekyu Shin/
+Desktop/Color Research/My Method/Computational Photography Proposal/othertechni
+queresult/1/1-bala.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Me
+thod/Computational Photography Proposal/othertechniqueresult/1/1-gooch.jpg> <C:
+/Users/Jack Taekyu Shin/Desktop/Color Research/My Method/Computational Photogra
+phy Proposal/othertechniqueresult/1/1-grund.jpg> <C:/Users/Jack Taekyu Shin/Des
+ktop/Color Research/My Method/Computational Photography Proposal/othertechnique
+result/1/1-kim.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Method
+/Computational Photography Proposal/othertechniqueresult/1/1-neumann.jpg> <C:/U
+sers/Jack Taekyu Shin/Desktop/Color Research/My Method/Computational Photograph
+y Proposal/othertechniqueresult/1/1-rasche.jpg> <C:/Users/Jack Taekyu Shin/Desk
+top/Color Research/My Method/Computational Photography Proposal/othertechniquer
+esult/1/1-smith.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Metho
+d/Computational Photography Proposal/othertechniqueresult/2/2.jpg> <C:/Users/Ja
+ck Taekyu Shin/Desktop/Color Research/My Method/Computational Photography Propo
+sal/othertechniqueresult/2/2-mine-p=1.jpg> <C:/Users/Jack Taekyu Shin/Desktop/C
+olor Research/My Method/Computational Photography Proposal/othertechniqueresult
+/2/2-mine-p=-1.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Method
+/Computational Photography Proposal/othertechniqueresult/2/2-y.jpg> <C:/Users/J
+ack Taekyu Shin/Desktop/Color Research/My Method/Computational Photography Prop
+osal/othertechniqueresult/2/2-bala.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Colo
+r Research/My Method/Computational Photography Proposal/othertechniqueresult/2/
+2-gooch.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Method/Comput
+ational Photography Proposal/othertechniqueresult/2/2-grund.jpg> <C:/Users/Jack
+ Taekyu Shin/Desktop/Color Research/My Method/Computational Photography Proposa
+l/othertechniqueresult/2/2-kim.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Re
+search/My Method/Computational Photography Proposal/othertechniqueresult/2/2-ne
+umann.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Method/Computat
+ional Photography Proposal/othertechniqueresult/2/2-rasche.jpg> <C:/Users/Jack 
+Taekyu Shin/Desktop/Color Research/My Method/Computational Photography Proposal
+/othertechniqueresult/2/2-smith.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color R
+esearch/My Method/Computational Photography Proposal/othertechniqueresult/3/3.j
+pg> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Method/Computational P
+hotography Proposal/othertechniqueresult/3/3-mine-p=1.jpg> <C:/Users/Jack Taeky
+u Shin/Desktop/Color Research/My Method/Computational Photography Proposal/othe
+rtechniqueresult/3/3-mine-p=-1.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Re
+search/My Method/Computational Photography Proposal/othertechniqueresult/3/3-y.
+jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Method/Computational 
+Photography Proposal/othertechniqueresult/3/3-bala.jpg> <C:/Users/Jack Taekyu S
+hin/Desktop/Color Research/My Method/Computational Photography Proposal/otherte
+chniqueresult/3/3-gooch.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/
+My Method/Computational Photography Proposal/othertechniqueresult/3/3-grund.jpg
+> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Method/Computational Pho
+tography Proposal/othertechniqueresult/3/3-kim.jpg> <C:/Users/Jack Taekyu Shin/
+Desktop/Color Research/My Method/Computational Photography Proposal/othertechni
+queresult/3/3-neumann.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My
+ Method/Computational Photography Proposal/othertechniqueresult/3/3-rasche.jpg>
+ <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Method/Computational Phot
+ography Proposal/othertechniqueresult/3/3-smith.jpg> <C:/Users/Jack Taekyu Shin
+/Desktop/Color Research/My Method/Computational Photography Proposal/othertechn
+iqueresult/4/4.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Method
+/Computational Photography Proposal/othertechniqueresult/4/4-mine-p=1.jpg> <C:/
+Users/Jack Taekyu Shin/Desktop/Color Research/My Method/Computational Photograp
+hy Proposal/othertechniqueresult/4/4-mine-p=0.jpg> <C:/Users/Jack Taekyu Shin/D
+esktop/Color Research/My Method/Computational Photography Proposal/othertechniq
+ueresult/4/4-y.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Method
+/Computational Photography Proposal/othertechniqueresult/4/4-bala.jpg> <C:/User
+s/Jack Taekyu Shin/Desktop/Color Research/My Method/Computational Photography P
+roposal/othertechniqueresult/4/4-gooch.jpg> <C:/Users/Jack Taekyu Shin/Desktop/
+Color Research/My Method/Computational Photography Proposal/othertechniqueresul
+t/4/4-grund.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Method/Co
+mputational Photography Proposal/othertechniqueresult/4/4-kim.jpg> <C:/Users/Ja
+ck Taekyu Shin/Desktop/Color Research/My Method/Computational Photography Propo
+sal/othertechniqueresult/4/4-neumann.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Co
+lor Research/My Method/Computational Photography Proposal/othertechniqueresult/
+4/4-rasche.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Method/Com
+putational Photography Proposal/othertechniqueresult/4/4-smith.jpg> <C:/Users/J
+ack Taekyu Shin/Desktop/Color Research/My Method/Computational Photography Prop
+osal/othertechniqueresult/5/5.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Res
+earch/My Method/Computational Photography Proposal/othertechniqueresult/5/5-min
+e-p=1.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Method/Computat
+ional Photography Proposal/othertechniqueresult/5/5-mine-p=-1.jpg> <C:/Users/Ja
+ck Taekyu Shin/Desktop/Color Research/My Method/Computational Photography Propo
+sal/othertechniqueresult/5/5-y.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Re
+search/My Method/Computational Photography Proposal/othertechniqueresult/5/5-ba
+la.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Method/Computation
+al Photography Proposal/othertechniqueresult/5/5-gooch.jpg> <C:/Users/Jack Taek
+yu Shin/Desktop/Color Research/My Method/Computational Photography Proposal/oth
+ertechniqueresult/5/5-grund.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Resea
+rch/My Method/Computational Photography Proposal/othertechniqueresult/5/5-kim.j
+pg> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Method/Computational P
+hotography Proposal/othertechniqueresult/5/5-neumann.jpg> <C:/Users/Jack Taekyu
+ Shin/Desktop/Color Research/My Method/Computational Photography Proposal/other
+techniqueresult/5/5-rasche.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Resear
+ch/My Method/Computational Photography Proposal/othertechniqueresult/5/5-smith.
+jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Method/Computational 
+Photography Proposal/othertechniqueresult/6/6.jpg> <C:/Users/Jack Taekyu Shin/D
+esktop/Color Research/My Method/Computational Photography Proposal/othertechniq
+ueresult/6/6-mine-p=1.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My
+ Method/Computational Photography Proposal/othertechniqueresult/6/6-mine-p=-1.j
+pg> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Method/Computational P
+hotography Proposal/othertechniqueresult/6/6-y.jpg> <C:/Users/Jack Taekyu Shin/
+Desktop/Color Research/My Method/Computational Photography Proposal/othertechni
+queresult/6/6-bala.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Me
+thod/Computational Photography Proposal/othertechniqueresult/6/6-gooch.jpg> <C:
+/Users/Jack Taekyu Shin/Desktop/Color Research/My Method/Computational Photogra
+phy Proposal/othertechniqueresult/6/6-grund.jpg> <C:/Users/Jack Taekyu Shin/Des
+ktop/Color Research/My Method/Computational Photography Proposal/othertechnique
+result/6/6-kim.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Method
+/Computational Photography Proposal/othertechniqueresult/6/6-neumann.jpg> <C:/U
+sers/Jack Taekyu Shin/Desktop/Color Research/My Method/Computational Photograph
+y Proposal/othertechniqueresult/6/6-rasche.jpg> <C:/Users/Jack Taekyu Shin/Desk
+top/Color Research/My Method/Computational Photography Proposal/othertechniquer
+esult/6/6-smith.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Metho
+d/Computational Photography Proposal/othertechniqueresult/7/7.jpg> <C:/Users/Ja
+ck Taekyu Shin/Desktop/Color Research/My Method/Computational Photography Propo
+sal/othertechniqueresult/7/7-mine-p=1.jpg> <C:/Users/Jack Taekyu Shin/Desktop/C
+olor Research/My Method/Computational Photography Proposal/othertechniqueresult
+/7/7-mine-p=-1.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Method
+/Computational Photography Proposal/othertechniqueresult/7/7-y.jpg> <C:/Users/J
+ack Taekyu Shin/Desktop/Color Research/My Method/Computational Photography Prop
+osal/othertechniqueresult/7/7-bala.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Colo
+r Research/My Method/Computational Photography Proposal/othertechniqueresult/7/
+7-gooch.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Method/Comput
+ational Photography Proposal/othertechniqueresult/7/7-grund.jpg> <C:/Users/Jack
+ Taekyu Shin/Desktop/Color Research/My Method/Computational Photography Proposa
+l/othertechniqueresult/7/7-kim.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Re
+search/My Method/Computational Photography Proposal/othertechniqueresult/7/7-ne
+umann.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Method/Computat
+ional Photography Proposal/othertechniqueresult/7/7-rasche.jpg> <C:/Users/Jack 
+Taekyu Shin/Desktop/Color Research/My Method/Computational Photography Proposal
+/othertechniqueresult/7/7-smith.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color R
+esearch/My Method/Computational Photography Proposal/othertechniqueresult/8/8.j
+pg> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Method/Computational P
+hotography Proposal/othertechniqueresult/8/8-mine-p=1.jpg> <C:/Users/Jack Taeky
+u Shin/Desktop/Color Research/My Method/Computational Photography Proposal/othe
+rtechniqueresult/8/8-mine-p=-1.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Re
+search/My Method/Computational Photography Proposal/othertechniqueresult/8/8-y.
+jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Method/Computational 
+Photography Proposal/othertechniqueresult/8/8-bala.jpg> <C:/Users/Jack Taekyu S
+hin/Desktop/Color Research/My Method/Computational Photography Proposal/otherte
+chniqueresult/8/8-gooch.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/
+My Method/Computational Photography Proposal/othertechniqueresult/8/8-grund.jpg
+> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Method/Computational Pho
+tography Proposal/othertechniqueresult/8/8-kim.jpg> <C:/Users/Jack Taekyu Shin/
+Desktop/Color Research/My Method/Computational Photography Proposal/othertechni
+queresult/8/8-neumann.jpg> <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My
+ Method/Computational Photography Proposal/othertechniqueresult/8/8-rasche.jpg>
+ <C:/Users/Jack Taekyu Shin/Desktop/Color Research/My Method/Computational Phot
+ography Proposal/othertechniqueresult/8/8-smith.jpg>]
+("C:\Users\Jack Taekyu Shin\Desktop\Color Research\My Method\Computational Phot
+ography Proposal\ijcai09.aux")
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 1906 strings out of 495285
+ 35861 string characters out of 3179794
+ 87076 words of memory out of 3000000
+ 4887 multiletter control sequences out of 15000+200000
+ 25157 words of font info for 55 fonts, out of 3000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 25i,10n,24p,1733b,278s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files (x86)/MiKTeX 2.8/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
+m Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program 
+Files (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files
+ (x86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files (x
+86)/MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/
+MiKTeX 2.8/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/Mi
+KTeX 2.8/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files (x86)/MiKTe
+X 2.8/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/MiKTeX 2
+.8/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/ty
+pe1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.8/fonts/type1/urw/tim
+es/utmri8a.pfb>
+Output written on ijcai09.pdf (7 pages, 3510398 bytes).
+PDF statistics:
+ 182 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 556 words of extra memory for PDF output out of 10000 (max. 10000000)
+

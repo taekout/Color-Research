@@ -1,0 +1,76 @@
+Feature preservation --> local changes.
+at the same time, do not mess up with the color ordering
+
+obvious color ordering achieved <- predominant component analysis.
+ ==> Local changes 
+
+test High - dynamic range images
+
+check filtering effects and simultaneous contrasts from Color Appearance Model
+
+
+------------------------------------------------------------------------------------------------
+COLOR ORDERING considering hue changes.
+
+Sometimes strong saturation causes it to look brighter(refer to decolorize)
+Adapt it.
+
+However, do not mess up with color ordering unless saturation is high.
+In this case, perceptual color ordering makes sense.
+However, combination of L and color perceptually might end up having the same greyscale.
+In that case, modification is necessary. local mapping likely has artifacts.
+
+I could maybe use some component analysis, I could use different 
+Noisy greyscale depending on the high saturation.
+
+
+CIELAB - Wrong Von Kries model + limitations
+
+contrast filter from the korean paper
+
+
+--------------------------------------------------------------
+
+
+Each of inquired conversions ranked the worst for at least
+one input image ==> Why?
+ ==> Each image has different qualities and characteristics.
+
+ ==> Use Hunt model
+ ==> If not applicable, use smith et al.
+
+ ==> I need an adaptive method.
+
+
+Decolorize good for images with narrow gamuts  --> Maybe I could design nonlinear PCA.
+Smith08 good for colorful images
+
+Overall best accuracy: Smith08
+Overall best preference: Decolorize
+
+No universally best conversion
+
+Decolorize - color order visually - some users may think that the color order is inaccurate.(perceptually.)
+
+
+--------------------------------------------------------------
+<Good intro>
+decolorize -> lack of consistent ordering  ==> need for good ordering.
+
+
+<Motivation>
+Precise -> better perceptually -> make it more precise.
+ ==> Choose Nayatani and color reordering(but preventing artifacts)
+ ==> Displays good results. Good color ordering depending on hue angles.
+ ==> I tried to use Nayatani to generate the axis. However, it did not go well.
+       --> I just manipulated on top of the 1st mapped data.(According to Fairchild,
+           artificial manipulation may not be accurate. However, it achieves a decent result.)
+
+Show blind test to show how well it detects (discriminability)
+
+Shows it where perceptuality=1.0,effect=0.3/0.1
+Shows it where perceptuality=-1.0,effect=0.3/0.1
+ ==> To prove that it can reverse color-order
+Shows it where perceptuality=1.0,effect=0.1
+Shows it where perceptuality=1.0,effect=1.0
+ ==> To prove how it can manipulate the intensity of color-ordering

@@ -1,0 +1,15 @@
+comm.exe 인수1(파일 이름) 인수2 인수3 인수4(차례대로 알파,베타, 세타)
+
+주의!> 파일 형식은 portable bitmap(PPM) 이어야 합니다. Photoshop 에서 PPM 으로 저장 가능
+
+
+결과 형식>
+Executing color2gray algorithm on "입력한 파일 이름"
+ with alpha=10.000000, theta=44.977228 (complete case.)
+Color2Gray result will be output to: 
+	c2g_theta45.0_a10.0_muFULL_q0.64_입력 파일 이름
+ and 	c2gC_theta45.0_a10.0_muFULL_q0.64_입력 파일 이름
+image loaded, w: 40, y: 40, c: 255.
+
+c2g completed in 0.593 seconds.
+Saving Color2Gray + Chrominance

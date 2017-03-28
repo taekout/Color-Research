@@ -1,0 +1,81 @@
+function Lvac = ConvertLuvToLvac(imageMatrixOfLuv)
+
+Uvalue = imageMatrixOfLuv(:,:,2);
+Vvalue = imageMatrixOfLuv(:,:,3);
+tempXYZ = luv2xyz(imageMatrixOfLuv);
+
+% compute Uc , Vc - u, v values of reference white.
+WhitePoint = [0.950456,1,1.088754];
+%Uc = (4*WhitePoint(1))./(WhitePoint(1) + 15*WhitePoint(2) + 3*WhitePoint(3));
+%Vc = (9*WhitePoint(2))./(WhitePoint(1) + 15*WhitePoint(2) + 3*WhitePoint(3));
+Uc = 0.20917;
+Vc = 0.48810;
+
+% the 3rd dimension of imageMatrixLuv is v values.
+% the 2rd dimension of imageMatrixLuv is u values.
+tmpoValue = (Vvalue - Vc) ./ (Uvalue - Uc);
+theta = atan( tmpoValue );
+% compute func_Q value using theta
+func_Q = -0.01585 - 0.03017 * cos(theta) - 0.04556 * cos(2*theta) - 0.02667 * cos(3*theta) - 0.00295 * cos(4*theta) + 0.14592 * sin(theta) + 0.05084 * sin(2 * theta) - 0.01900 * sin(3*theta) - 0.00764 * sin(4*theta);
+
+% compute K_br
+K_br = 0.2717 * ((6.469 + 6.362 * 20)^0.4495) / ((6.469 + 20)^0.4495);
+% compute S_uv  !. (u,v) = respectively, the 2nd and 3rd dimension of
+                                                     % imagematrixLuv
+
+S_uv = 13 * (   (    ( (Uvalue - Uc).^2) + ((Vvalue - Vc).^2)     ).^0.5  );
+% I don't know why it works when I divide Suv by 1000.
+%S_uv = S_uv ./ 1000; % or instead, S_uv = S_uv ./ max(max(S_uv));
+% compute L* ... Y = the 2nd dimension of XYZ matrix.
+%Lstar = 116 * (tempXYZ(:,:,2).^(1/3)) - 16;
+c = makecform('xyz2lab'); tempLAB = applycform(tempXYZ, c);
+%tempLAB = colorspace('xyz->lab', tempXYZ);
+Lstar = tempLAB(:,:,1); % L of LAB
+%116 * tempXYZ(:,:,2).^(1/3) - 16
+
+% VAC from equation 7 of Nayatani dissertation
+gamma = 1 + (-0.1340 * func_Q + 0.0872 * K_br) .* S_uv;
+
+Lstar = Lstar .* gamma ;
+% Lstar = Lstar .* 2.5599
+Lstar(Lstar < 0) = 0;
+Lstar(Lstar > 100) = 100;
+
+
+%lab_dst[0] = CLAMP( (gint)(gamma*l * 2.5599) , 0, 255);
+%lab_dst[1] = (guchar) 128.0;
+%lab_dst[2] = (guchar) 128.0;
+
+% compute Lvac , the returned value.
+Lvac = Lstar;
+
+
+
+function Image = luv2xyz(Image)
+% Convert to CIE XYZ from 'SrcSpace'
+WhitePoint = [0.950456,1,1.088754];  
+
+
+% Convert CIE L*uv to XYZ
+WhitePointU = 0.20917; %(4*WhitePoint(1))./(WhitePoint(1) + 15*WhitePoint(2) + 3*WhitePoint(3));
+WhitePointV = 0.48810; %(9*WhitePoint(2))./(WhitePoint(1) + 15*WhitePoint(2) + 3*WhitePoint(3));
+
+L = Image(:,:,1);
+Y = zeros(size(L));
+Z = zeros(size(L));
+Y(L>8) = ((L(L>8) + 16)/116) .^ 3;
+Y(L<=8) = L(L<=8) * ((3/29) .^ 3);
+X = Y * 9 * WhitePointU / (4 * WhitePointV);
+Z = Y * ( ( 12 - 3 * WhitePointU - 20 * WhitePointV) / (4 * WhitePointV) );
+
+
+Image(:,:,1) = X;  % X
+Image(:,:,2) = Y;  % Y
+Image(:,:,3) = Z;  % Z
+
+
+
+
+
+
+

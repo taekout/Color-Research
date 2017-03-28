@@ -1,0 +1,22 @@
+
+Each of inquired conversions ranked the worst for at least
+one input image ==> Why?
+ ==> Each image has different qualities and characteristics.
+
+ ==> Use Hunt model
+ ==> If not applicable, use smith et al.
+
+ ==> I need an adaptive method.
+
+
+Decolorize good for images with narrow gamuts  --> Maybe I could design nonlinear PCA.
+Smith08 good for colorful images
+
+Overall best accuracy: Smith08
+Overall best preference: Decolorize
+
+No universally best conversion
+
+Decolorize - color order visually - some users may think that the color order is inaccurate.(perceptually.)
+
+

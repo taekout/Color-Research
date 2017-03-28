@@ -1,0 +1,27 @@
+function adjustment()
+% argument 1 ornImage -> an original image
+% argument 2 greyImage -> the grey image
+% argument 3 lacImage -> the current laplacian image 
+% argument 4 bandpassImage-> a bandpas image
+% argument 5 p => arbitrary value used to indicate how much a theta is emphasized
+%      Default > 0.25
+% argument 6 k => an array including k elements. The number of elements is
+% as many as the depth of the used laplacian pyramid.
+%      Default = [2, 1, 1, 0.6]; // The default depth == 4 (elements)
+
+labImage = colorspace('rgb->lab', ornImage);
+L = labImage(:,:,1);
+a = labImage(:,:,2);
+b = labImage(:,:,3);
+Econtrast = (bandpassImage .* L) .^ 2 + (bandpassImage .* a).^2 + (bandpassImage .* b).^2;
+Econtrast = Econtrast .^ (1/2);
+
+% compute Hi(Gl*)
+Denominator = abs(bandpassImage .* greyImage);
+
+% compute matrix Gamma_i
+mGamma_i = (Econtrast ./ Denominator) .^ p;
+
+% compute the final matrix of grey values.
+modifiedGL = greyImage;
+for int i = 0 : 

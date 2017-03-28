@@ -1,0 +1,67 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{BALA}{}]{BalaEschbach}
+BALA.
+\newblock Spatial color-to-grayscale transformation preserving chrominance edge
+  information.
+
+\bibitem[\protect\citeauthoryear{{\v{C}}ad\'{i}k}{2008}]{cadik08perceptual}
+Martin {\v{C}}ad\'{i}k.
+\newblock Perceptual evaluation of color-to-grayscale image conversions.
+\newblock {\em Comput. Graph. Forum}, 27(7):1745--1754, 2008.
+
+\bibitem[\protect\citeauthoryear{Fairchild}{2004}]{Fairchild2004_1}
+Mark~D. Fairchild.
+\newblock Color appearance modeling: Splicing color science and practical
+  applications,.
+\newblock {\em Journal of Vision}, 4(11), 2004.
+
+\bibitem[\protect\citeauthoryear{Gooch \bgroup \em et al.\egroup
+  }{2005}]{Gooch05color2gray:salience-preserving}
+Amy~A. Gooch, Sven~C. Olsen, Jack Tumblin, and Bruce Gooch.
+\newblock Color2gray: Salience-preserving color removal.
+\newblock {\em ACM Transactions on Graphics}, 24:634--639, 2005.
+
+\bibitem[\protect\citeauthoryear{Grundland and
+  Dodgson}{2007}]{journals/pr/GrundlandD07}
+Mark Grundland and Neil~A. Dodgson.
+\newblock Decolorize: Fast, contrast enhancing, color to grayscale conversion.
+\newblock {\em Pattern Recognition}, 40(11):2891--2896, 2007.
+
+\bibitem[\protect\citeauthoryear{Hunt}{2004}]{Hunt}
+Hunt.
+\newblock {\em The Reproduction of Colour}, volume~6.
+\newblock 2004.
+
+\bibitem[\protect\citeauthoryear{Kim \bgroup \em et al.\egroup
+  }{2009}]{kim09_c2g}
+Yongjin Kim, Cheolhun Jang, Julien Demouth, and Seungyong Lee.
+\newblock Robust color-to-gray via nonlinear global mapping.
+\newblock {\em ACM Transactions on Graphics (SIGGRAPH ASIA 2009)}, 28(5),
+  December 2009.
+
+\bibitem[\protect\citeauthoryear{Nayatani}{1997}]{Nayatani97}
+Nayatani.
+\newblock Simple estimation methods for the helmholtzkohlrausch effect.
+\newblock {\em Color Research and Application}, 22, December 1997.
+
+\bibitem[\protect\citeauthoryear{Nayatani}{1998}]{Nayatani98}
+Nayatani.
+\newblock Relations between the two kinds of representation methods in the
+  helmholtz-kohlrausch effect.
+\newblock {\em Color Research and Application}, 23, December 1998.
+
+\bibitem[\protect\citeauthoryear{Neumann \bgroup \em et al.\egroup
+  }{2007}]{cadik07color_to_gray}
+Laszlo Neumann, Martin {\v{C}}ad\'{i}k, and Antal Nemcsics.
+\newblock An efficient perception-based adaptive color to gray transformation.
+\newblock In {\em Proceedings of Computational Aesthetics 2007}, pages 73-- 80,
+  Banff, Canada, 2007. Eurographics Association.
+
+\bibitem[\protect\citeauthoryear{Rasche \bgroup \em et al.\egroup
+  }{2005}]{Rasche05re-coloringimages}
+Karl Rasche, Robert Geist, and James Westall.
+\newblock Re-coloring images for gamuts of lower dimension.
+\newblock {\em Computer Graphics Forum}, pages 423--432, 2005.
+
+\end{thebibliography}

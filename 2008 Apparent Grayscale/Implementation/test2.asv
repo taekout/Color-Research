@@ -1,0 +1,24 @@
+function test2()
+
+testImage = imread('sunrise.bmp');  % Import color data as uint8 in the range [0,255]
+testImage = double(testImage)/255;        % Cast to double in the range [0,1]
+
+
+XYZ = colorspace('rgb->xyz', testImage);
+LUV = colorspace('rgb->luv', testImage);
+
+VAC = ConvertLuvToLvac(LUV);
+
+TheNewY = MappingLnToGreyscale(VAC);
+
+
+
+figure;
+imshow(TheNewY);
+axis image
+title('Original image');
+
+spGaussian  = fspecial
+spLaplacian = 
+
+

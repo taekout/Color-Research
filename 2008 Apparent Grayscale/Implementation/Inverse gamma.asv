@@ -1,0 +1,5 @@
+function  [RGBlinear] = InverseGammaEncoding(RGBnonlinear)
+% Return a value after the inverse process of gamma encoding.
+
+
+RGBnonlinear[0]^2.150

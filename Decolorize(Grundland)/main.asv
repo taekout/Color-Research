@@ -1,0 +1,13 @@
+function main()
+
+pictures= imread('25_color.png');
+[width, height] = size(pictures);
+
+for rows=1:height
+    for cols = 1:width
+        picture(
+tones = decolorize(picture, 0.5, 25, 0.001);
+    end 
+end
+
+end

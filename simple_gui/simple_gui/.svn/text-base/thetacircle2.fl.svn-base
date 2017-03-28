@@ -1,0 +1,97 @@
+# data file for the Fltk User Interface Designer (fluid)
+version 1.0106 
+header_name {.h} 
+code_name {.cxx}
+decl {\#include "color2gray.h"} {} 
+
+decl {extern Color2GrayIt *c2gTC;} {} 
+
+decl {extern int unitc,ww,wh;} {} 
+
+decl {\#define MAX(a,b) a < b ? b : a} {} 
+
+decl {extern void fillBoxWithImage(Fl_Box *box, int i, char *name, Color2GrayIt *Lc2g);} {selected
+} 
+
+Function {thetaCircleWindow()} {open
+} {
+  Fl_Window {} {
+    label {Color2Gray over Values of Theta} open
+    xywh {397 50 1019 852} type Double box EMBOSSED_BOX color 55 labelfont 8 resizable visible
+  } {
+    Fl_Group Box_Group {open
+      xywh {0 0 974 940}
+    } {
+      Fl_Box Box_0 {
+        label 0
+        user_data 0
+        xywh {774 289 200 206}
+        code0 {char Tname[256]; c2gTC->getImageName(0,Tname);}
+        code1 {fillBoxWithImage(Box_0, I0, Tname,c2gTC);}
+      }
+      Fl_Box Box_45 {
+        label 45
+        user_data 45
+        xywh {699 75 200 200}
+        code0 {char Tname[256]; c2gTC->getImageName(45, Tname);}
+        code1 {fillBoxWithImage(Box_45, I45, Tname,c2gTC);}
+      }
+      Fl_Box Box_90 {
+        label 90
+        user_data 90
+        xywh {482 10 200 200}
+        code0 {char Tname[256]; c2gTC->getImageName(90,Tname);}
+        code1 {fillBoxWithImage(Box_90, I90, Tname,c2gTC);}
+      }
+      Fl_Box Box_135 {
+        label 135
+        user_data 135
+        xywh {264 75 200 200}
+        code0 {char Tname[256]; c2gTC->getImageName(135,Tname);}
+        code1 {fillBoxWithImage(Box_135, I135, Tname,c2gTC);}
+      }
+      Fl_Box Box_180 {
+        label 180
+        user_data 180
+        xywh {204 292 200 200}
+        code0 {char Tname[256]; c2gTC->getImageName(180,Tname);}
+        code1 {fillBoxWithImage(Box_180, I180, Tname,c2gTC);}
+      }
+      Fl_Box Box_225 {
+        label 225
+        user_data 225
+        xywh {264 510 200 200}
+        code0 {char Tname[256]; c2gTC->getImageName(225,Tname);}
+        code1 {fillBoxWithImage(Box_225, I225, Tname,c2gTC);}
+      }
+      Fl_Box Box_270 {
+        label 270
+        user_data 270
+        xywh {482 585 200 200}
+        code0 {char Tname[256]; c2gTC->getImageName(270,Tname);}
+        code1 {fillBoxWithImage(Box_270, I270, Tname,c2gTC);}
+      }
+      Fl_Box Box_315 {
+        label 315
+        user_data 315
+        xywh {699 510 200 200}
+        code0 {char Tname[256]; c2gTC->getImageName(315,Tname);}
+        code1 {fillBoxWithImage(Box_315, I315, Tname,c2gTC);}
+      }
+      Fl_Box Box_Original {
+        label Original
+        user_data {-1}
+        xywh {482 292 200 200}
+        code0 {char Tname[256]; c2gTC->getImageName(-1,Tname);}
+        code1 {fillBoxWithImage(Box_Original, IO, Tname,c2gTC);}
+      }
+      Fl_Box Box_OldGray {
+        label Gray
+        user_data {-2}
+        xywh {15 645 200 200}
+        code0 {char Tname[256];c2gTC->getImageName(-2,Tname);}
+        code1 {fillBoxWithImage(Box_OldGray, IOG, Tname,c2gTC);}
+      }
+    }
+  }
+} 
